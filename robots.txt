@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ujwaldeepkadiyam.github.io/sitemap.xml
+Sitemap: https://ujwaldeepkadiyam.github.ioblank/sitemap.xml
