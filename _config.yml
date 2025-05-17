@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Next-Gen Tech Ed # the website title (if blank, full name will be used instead)
+title: blank # Next-Gen Tech Ed # the website title (if blank, full name will be used instead)
 first_name: Ujwal Deep
 middle_name: blank
 last_name: Kadiyam
