@@ -36,7 +36,7 @@ I am Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Techn
 <div style="display: flex; gap: 40px;">
 
 <div style="flex: 1;">
-*Areas of Expertise* :
+Areas of Expertise :
 <ul>
   <li>Machine Learning</li>
   <li>Deep Learning</li>
@@ -46,7 +46,8 @@ I am Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Techn
 </div>
 
 <div style="flex: 1;">
-<ul>
+
+<ul>  
   <li>Digital Design, Verilog</li>
   <li>LTE Architecture</li>
   <li>5G Networking</li>
