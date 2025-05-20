@@ -51,7 +51,8 @@ Areas of Expertise :
   <li>LTE Architecture</li>
   <li>5G Networking</li>
   <li>Error Correcting Codes</li>
-  <li>Python and Matlab</li>
+  <li>Python</li>
+  <li>Matlab</li>
 </ul>
 </div>
 </div>
