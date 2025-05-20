@@ -34,7 +34,6 @@ I am Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Techn
 
 
 <div style="display: flex; gap: 40px;">
-
 <div style="flex: 1;">
 Areas of Expertise :
 <ul>
@@ -42,19 +41,19 @@ Areas of Expertise :
   <li>Deep Learning</li>
   <li>Generative AI</li>
   <li>Statistics, Probability and Random Process</li>
+  <li>Digital Design, Verilog</li>
 </ul>
 </div>
 
 <div style="flex: 1;">
 <br>
 <ul>  
-  <li>Digital Design, Verilog</li>
   <li>LTE Architecture</li>
   <li>5G Networking</li>
   <li>Error Correcting Codes</li>
+  <li>Python and Matlab</li>
 </ul>
 </div>
-
 </div>
 
 
