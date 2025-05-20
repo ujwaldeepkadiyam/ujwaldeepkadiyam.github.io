@@ -32,19 +32,27 @@ latest_posts:
 I am Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Technology-Guwahati** in Electronics and Electrical Engineering. I specialized in the area of Coding Theory and Next Gen Networking.
 
 <div style="display: flex; gap: 40px;">
-  <div style="flex: 1;">
-    ### Column 1
-    - Point A
-    - Point B
-    - Point C
-  </div>
-  <div style="flex: 1;">
-    ### Column 2
-    - Point D
-    - Point E
-    - Point F
-  </div>
+
+<div style="flex: 1;">
+<h3>📌 Column 1: Research Areas</h3>
+<ul>
+  <li>Machine Learning</li>
+  <li>Data Visualization</li>
+  <li>Time Series Analysis</li>
+</ul>
 </div>
+
+<div style="flex: 1;">
+<h3>📌 Column 2: Teaching</h3>
+<ul>
+  <li>Intro to Python</li>
+  <li>Statistics with Excel</li>
+  <li>AI Ethics</li>
+</ul>
+</div>
+
+</div>
+
 
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
