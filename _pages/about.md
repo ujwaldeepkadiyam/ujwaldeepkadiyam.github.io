@@ -46,7 +46,7 @@ Areas of Expertise :
 </div>
 
 <div style="flex: 1;">
-
+<br>
 <ul>  
   <li>Digital Design, Verilog</li>
   <li>LTE Architecture</li>
