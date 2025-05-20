@@ -31,23 +31,27 @@ latest_posts:
 
 I am Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Technology-Guwahati** in Electronics and Electrical Engineering. I specialized in the area of Coding Theory and Next Gen Networking.
 
+
+
 <div style="display: flex; gap: 40px;">
 
 <div style="flex: 1;">
-<h3>📌 Column 1: Research Areas</h3>
+<h5>Areas of Expertise</h5>
 <ul>
   <li>Machine Learning</li>
-  <li>Data Visualization</li>
-  <li>Time Series Analysis</li>
+  <li>Deep Learning</li>
+  <li>Generative AI</li>
+  <li>Statistics, Probability and Random Process</li>
 </ul>
 </div>
 
 <div style="flex: 1;">
-<h3>📌 Column 2: Teaching</h3>
+Areas of Expertise
 <ul>
-  <li>Intro to Python</li>
-  <li>Statistics with Excel</li>
-  <li>AI Ethics</li>
+  <li>Digital Design, Verilog</li>
+  <li>LTE Architecture</li>
+  <li>5G Networking</li>
+  <li>Error Correcting Codes</li>
 </ul>
 </div>
 
