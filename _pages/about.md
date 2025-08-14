@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
+    <p>email: ujwaldeep@gmail.comr</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
@@ -27,8 +27,38 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+[//]:# Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.[//]:#
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+I am Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Technology-Guwahati** in Electronics and Electrical Engineering. I specialized in the area of Coding Theory and Next Gen Networking with Artificial Intelligence.
+
+
+
+<div style="display: flex; gap: 40px;">
+<div style="flex: 1;">
+Areas of Expertise :
+<ul>
+  <li>Machine Learning</li>
+  <li>Deep Learning</li>
+  <li>Generative AI</li>
+  <li>Statistics, Probability and Random Process</li>
+  <li>Digital Design, Verilog</li>
+</ul>
+</div>
+
+<div style="flex: 1;">
+<br>
+<ul>  
+  <li>LTE Architecture</li>
+  <li>5G Networking</li>
+  <li>Error Correcting Codes</li>
+  <li>Python</li>
+  <li>Matlab</li>
+</ul>
+</div>
+</div>
+
+<!-- 
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
