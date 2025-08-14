@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Alma Mater</a>. Indian Institute of Technology Guwahati (PhD)<br>SRM University (M.Tech - Gold Medalist)
 
 profile:
   align: right
