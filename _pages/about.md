@@ -3,14 +3,15 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle: <a href='#'>Alma Mater</a>. Indian Institute of Technology Guwahati (PhD)<br>SRM University (M.Tech - Gold Medalist)
+subtitle: <a href='#'>Alma Mater</a>. Indian Institute of Technology Guwahati (PhD)
+          <br><span style="padding-left: 12px;">SRM University (M.Tech - Gold Medalist)
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>email: ujwaldeep@gmail.comr</p>
+    <p>email: ujwaldeep@gmail.com</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
