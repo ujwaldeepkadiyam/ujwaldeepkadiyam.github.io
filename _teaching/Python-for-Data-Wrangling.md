@@ -13,6 +13,7 @@ This course provides an introduction to the fundamental concepts of data science
 ### Materials
 
 #### Lecture slides: 
-* [Lecture 1: Introduction to Python](/teaching/Python-for-Data-Wrangling/Session-1-BASIC NAVIGATION AND PROGRAMMING-Redacted-no_logo.pdf)
+
+* [Lecture 1: Introduction to Python](/teaching/Python-for-Data-Wrangling/Session-1-BASIC NAVIGATION AND PROGRAMMING-ujwal.html)
   
 - Assignments: [Link to assignments]

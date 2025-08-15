@@ -35,7 +35,7 @@ latest_posts:
 [//]:# Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.[//]:#
 
 
-Hello everyone, this is Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Technology-Guwahati** in Electronics and Electrical Engineering. I am _Gold medalist_ in my M.Tech at SRM University. I specialized in the areas of Coding Theory and Next Gen Networking with Artificial Intelligence.
+Hello everyone, this is Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Technology-Guwahati** in Electronics and Electrical Engineering. I am a _Gold medalist_ in my M.Tech at SRM University. I specialize in the areas of Coding Theory and Next Gen Networking with Artificial Intelligence.
 
 
 
