@@ -153,6 +153,9 @@ collections:
     output: true
   projects:
     output: true
+  teaching:
+    output: true
+    permalink: /teaching/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -172,7 +175,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+include: ["_pages", "_scripts","_teaching/"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -216,6 +219,20 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+
+#------------------------------------ journals and conferences -------------------------------------
+# _config.yml
+
+# Other settings...
+
+# --- Jekyll Scholar ---
+jekyll-scholar:
+  style: apa
+  locale: en
+  categories:
+    - journal
+    - conference
+#---------------------------------------------------------------------------------------------------
 
 # Sitemap settings
 defaults:

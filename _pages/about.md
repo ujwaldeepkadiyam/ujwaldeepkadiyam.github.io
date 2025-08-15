@@ -3,7 +3,11 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle: <a href='#'>Alma Mater</a>. Indian Institute of Technology Guwahati (PhD)<br>SRM University (M.Tech - Gold Medalist)
+subtitle: <a href='#'>Alma Mater:</a> Indian Institute of Technology Guwahati (PhD)
+
+# subtitle: <p><a href="#">Alma Mater:</a><br>
+#   - Indian Institute of Technology Guwahati (PhD)<br>
+#   - SRM University (M.Tech - Gold Medalist)</p>
 
 profile:
   align: right
@@ -31,7 +35,7 @@ latest_posts:
 [//]:# Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.[//]:#
 
 
-I am Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Technology-Guwahati** in Electronics and Electrical Engineering. I specialized in the area of Coding Theory and Next Gen Networking with Artificial Intelligence.
+Hello everyone, this is Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Technology-Guwahati** in Electronics and Electrical Engineering. I am _Gold medalist_ in my M.Tech at SRM University. I specialized in the areas of Coding Theory and Next Gen Networking with Artificial Intelligence.
 
 
 
@@ -61,5 +65,14 @@ Areas of Expertise :
 
 <!-- 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
+
+
+<p>
+  Check out my profiles:
+  <a href="https://scholar.google.com/citations?user=IxDyNn8AAAAJ" target="_blank">Google Scholar</a> |
+  <a href="https://orcid.org/0000-0003-0624-3751" target="_blank">ORCID</a> |
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=57209337450" target="_blank">Scopus</a> |
+    <a href="https://publons.com/researcher/4679603/ujwal-deep-kadiyam/" target="_blank">Publons</a> 
+</p>
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
