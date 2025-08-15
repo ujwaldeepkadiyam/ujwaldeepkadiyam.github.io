@@ -496,12 +496,17 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-python-for-data-wrangling",
+          title: 'Python-for-Data-Wrangling',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Python-for-Data-Wrangling/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%75%6A%77%61%6C%64%65%65%70@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-inspire',
