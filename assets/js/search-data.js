@@ -45,8 +45,8 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "Teaching",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -500,7 +500,12 @@ ninja.data = [{
           title: 'Python-for-Data-Wrangling',
           description: "",
           section: "Teaching",handler: () => {
-              window.location.href = "/teaching/Python-for-Data-Wrangling/";
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/";
+            },},{id: "teaching-stat",
+          title: 'Stat',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Mathematical%20Foundations/stat/";
             },},{
         id: 'social-email',
         title: 'email',
