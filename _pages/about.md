@@ -1,7 +1,8 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: / #The permalink: / setting tells Jekyll to build this specific page and place it at the root of your website, making it your home page.
+
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 subtitle: <a href='#'>Alma Mater:</a> Indian Institute of Technology Guwahati (PhD)
 
@@ -35,7 +36,7 @@ latest_posts:
 [//]:# Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.[//]:#
 
 
-Hello everyone, this is Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Technology-Guwahati** in Electronics and Electrical Engineering. I am a _Gold medalist_ in my M.Tech at SRM University. I specialize in the areas of Coding Theory and Next Gen Networking with Artificial Intelligence.
+Hello everyone, this is Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Technology-Guwahati** in Electronics and Electrical Engineering. I am a _Gold medalist_ in my M.Tech at SRM University. I specialize in the areas of Error Correcting  Codes and Next Gen Networking with Artificial Intelligence.
 
 
 
@@ -68,7 +69,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 
 <p>
-  Check out my profiles:
+  Check out my profiles at
   <a href="https://scholar.google.com/citations?user=IxDyNn8AAAAJ" target="_blank">Google Scholar</a> |
   <a href="https://orcid.org/0000-0003-0624-3751" target="_blank">ORCID</a> |
   <a href="https://www.scopus.com/authid/detail.uri?authorId=57209337450" target="_blank">Scopus</a> |

@@ -1,9 +1,10 @@
 ---
 layout: page # Use the standard page layout
-title: Python-for-Data-Wrangling # The title of the course. replace space with -
+title: Stat # The title of the course. replace space with -
 # permalink: /teaching/data-science-foundations/
 course_number: CS 101
 term: Fall 2024
+category: Mathematical Foundations # Add this line
 ---
 
 ### Course Description
@@ -14,6 +15,6 @@ This course provides an introduction to the fundamental concepts of data science
 
 #### Lecture slides: 
 
-* [Lecture 1: Introduction to Python](/teaching/Python-for-Data-Wrangling/Session-1-BASIC NAVIGATION AND PROGRAMMING-ujwal.html)
+* [Lecture 1: Introduction to Python](/teaching/Mathematical Foundations/stat/Session-1-BASIC NAVIGATION AND PROGRAMMING-ujwal.html)
   
 - Assignments: [Link to assignments]
