@@ -29,6 +29,9 @@ Organize your courses by years, topics, or universities, however you like! -->
         <a href="#data-science">Data Science</a></p>
 
         <h2 id="maths">Mathematical Foundations</h2>
+        <!-- <h2 id="maths" style="text-align: center; color: blue;">  <strong style="color: #cc33cc;">Mathematical Foundations</strong> </h2> -->
+        <!-- <h2 id="maths" style="text-align: center; color: #000000;">Mathematical Foundations</h2> -->
+
         <ul>
             {% for course in site.teaching %}
             {% if course.category == "Mathematical Foundations" %}
@@ -40,7 +43,8 @@ Organize your courses by years, topics, or universities, however you like! -->
             {% endfor %}
         </ul>
 
-        <h2 id="data__science">Data Science</h2>
+        <h2 id="data-science">Data Science</h2>
+        <!-- <h2 id="data-science" style="text-align: center; color: #000000;">Data Science</h2> -->
         <ul>
             {% for course in site.teaching %}
             {% if course.category == "Data Science" %}
