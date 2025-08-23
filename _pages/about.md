@@ -40,7 +40,7 @@ Hello everyone, this is Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian
 
 
 
-<div style="display: flex; gap: 40px;">
+<!-- <div style="display: flex; gap: 40px;">
 <div style="flex: 1;">
 Areas of Expertise :
 <ul>
@@ -62,6 +62,59 @@ Areas of Expertise :
   <li>Matlab</li>
 </ul>
 </div>
+</div> -->
+
+<b>Areas of Expertise</b>
+<div style="display: flex; flex-direction: column; gap: 10px;">
+  <div style="display: flex; gap: 20px;">     
+  <!-- Mathematical Foundations Column -->
+    <div style="flex: 1;">
+      <b>Mathematical Foundations</b>
+      <ul>
+        <li>Statistics, Probability and Random Process</li>
+        <li>Linear Algebra</li>
+        <li>Abstract Algebra</li>
+      </ul>
+    </div>
+
+    <!-- AI Column -->
+    <div style="flex: 1;">
+      <b>Artificial Intelligence (AI)</b>
+      <ul>
+        <li>Data Science</li>
+        <li>Machine Learning</li>
+        <li>Deep Learning</li>
+        <li>Generative AI</li>
+        </ul>
+    </div>
+  </div>
+
+  <!-- Second Row -->
+  <div style="display: flex; gap: 20px;">
+  
+    <!-- Communication Engineering Column -->
+    <div style="flex: 1;">
+      <b>Communication Engineering</b>
+      <ul>
+        <li>LTE Architecture</li>
+        <li>5G Networking</li>
+        <li>Error Correcting Codes</li>
+        <li>Digital Design</li>
+        <li>Signal Processing</li>
+      </ul>
+    </div>
+
+    <!-- Tools Column -->
+    <div style="flex: 1;">
+      <b>Tools</b>
+      <ul>
+        <li>Python</li>
+        <li>Matlab</li>
+        <li>Verilog</li>
+        <li>System Verilog</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <!-- 
