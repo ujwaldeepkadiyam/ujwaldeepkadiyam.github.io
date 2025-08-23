@@ -32,7 +32,7 @@ Here are the slides for a quick reference:
 <!-- * <iframe src="/teaching/Data Science/Python-for-Data-Wrangling/Lecture-1/Session-1-BASIC NAVIGATION AND PROGRAMMING-Redacted-no_logo.pdf" style="width:100%; height:100vh;" frameborder="0"></iframe> -->
 
 
-* [Lecture 2: DATA QUERYING & MANIPULATION](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-2.html)
+* [Lecture 2: DATA QUERYING & MANIPULATION](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-2/lec-2.html)
 
 *  [Lecture 3: JOINING, RELATIONSHIP AND DATA MODELING](/teaching/Data Science/Python-for-Data-Wrangling/Session-1-BASIC NAVIGATION AND PROGRAMMING-ujwal.html)
 
