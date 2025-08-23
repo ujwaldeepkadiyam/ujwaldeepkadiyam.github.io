@@ -31,13 +31,13 @@ Here are the slides for a quick reference:
 
 * [Lecture 2: Data Querying and Manipulation](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-2/lec-2.html)
 
-* [Lecture 3: Joining, Relationship and Data Modeling](/teaching/Data Science/Python-for-Data-Wrangling/Session-1-BASIC NAVIGATION AND PROGRAMMING-ujwal.html)
+* [Lecture 3: Joining, Relationship and Data Modeling](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-3/lec-3.html)
 
-* [Lecture 4: Data Transformation](/teaching/Data Science/Python-for-Data-Wrangling/Session-1-BASIC NAVIGATION AND PROGRAMMING-ujwal.html)
+* [Lecture 4: Data Transformation](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-4/lec-4.html)
 
-* [Lecture 5: Computation and Visualization](/teaching/Data Science/Python-for-Data-Wrangling/Session-1-BASIC NAVIGATION AND PROGRAMMING-ujwal.html)
+* [Lecture 5: Computation and Visualization](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-5/lec-5.html)
 
-* [Lecture 6: Programming and Automation](/teaching/Data Science/Python-for-Data-Wrangling/Session-1-BASIC NAVIGATION AND PROGRAMMING-ujwal.html)
+* [Lecture 6: Programming and Automation](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-6/lec-6.html)
 
 #### Assignments: 
  
