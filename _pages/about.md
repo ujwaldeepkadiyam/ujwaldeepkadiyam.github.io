@@ -35,8 +35,8 @@ latest_posts:
 
 [//]:# Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.[//]:#
 
-
-Hello everyone, this is Dr. Ujwal Deep Kadiyam. I have done my Phd from **Indian Institute of Technology-Guwahati** in Electronics and Electrical Engineering. I am a _Gold medalist_ in my M.Tech at SRM University. I specialize in the areas of Error Correcting  Codes and Next Gen Networking with Artificial Intelligence.
+<p style="text-align: justify;">
+Hello everyone, this is Dr. Ujwal Deep Kadiyam. I have done my Phd from <b>Indian Institute of Technology-Guwahati</b> in Electronics and Electrical Engineering. I am a <i>Gold medalist</i> in my M.Tech at SRM University. I specialize in the areas of Error Correcting  Codes and Next Gen Networking with Artificial Intelligence.</p>
 
 
 
@@ -63,6 +63,17 @@ Areas of Expertise :
 </ul>
 </div>
 </div> -->
+
+<p style="text-align: justify;">
+I bring a strong foundation in <b>mathematics</b>, practical experience and a deep understanding of 
+<b>artificial intelligence</b>, and 
+<b>communication engineering</b>. My expertise spans theoretical foundations 
+ as well as hands-on applications in machine learning, deep learning, digital design and next-generation 
+networking. Equipped with tools like Python, Matlab, and Verilog, I bridge the gap between research, theoretical concepts and practical implementation.
+</p>
+
+
+
 
 <b>Areas of Expertise</b>
 <div style="display: flex; flex-direction: column; gap: 10px;">
