@@ -13,31 +13,52 @@ category: Data Science # Add this line
 <!-- #### Course Introduction  -->
 <h4 style="color: #cc33cc;">Course Introduction</h4>
 
-Welcome to **Python for Data Wrangling**! This course is designed to equip you with the essential skills to transform messy, real-world data into clean, structured datasets ready for analysis. Data wrangling, or "munging," is a critical step in the data science pipeline, and mastering it can save you countless hours and ensure the reliability of your insights.
 
-Throughout this course, we'll focus on the core libraries that are the backbone of data manipulation in Python: **Pandas** and **NumPy**. You'll learn how to read various data formats, handle missing values, reshape data, and perform complex joins and merges. We'll move beyond basic commands to explore advanced techniques for string manipulation, data aggregation, date time formatting, transformation, visualization and automation. 
 
-By the end of this course, you will be able to confidently tackle any data wrangling challenge, setting a strong foundation for your journey into data science, machine learning. Get ready to turn chaos into clarity!
+
+<p style="text-align: justify;">
+  Welcome to <strong>Python for Data Wrangling</strong>! This course is designed to equip you with the essential skills to transform messy, real-world data into clean, structured datasets ready for analysis. Data wrangling, or "munging," is a critical step in the data science pipeline, and mastering it can save you countless hours and ensure the reliability of your insights.
+</p>
+
+
+
+<p style="text-align: justify;">
+  Throughout this course, we'll focus on the core libraries that are the backbone of data manipulation in Python: <strong>Pandas</strong> and <strong>NumPy</strong>. You'll learn how to read various data formats, handle missing values, reshape data, and perform complex joins and merges. We'll move beyond basic commands to explore advanced techniques for string manipulation, data aggregation, date time formatting, transformation, visualization and automation.
+</p>
+
+
+
+<p style="text-align: justify;">
+  By the end of this course, you will be able to confidently tackle any data wrangling challenge, setting a strong foundation for your journey into data science, machine learning. Get ready to turn chaos into clarity!
+</p>
 
 <!-- ### Materials -->
-<h4 style="color: #cc33cc;">Lecture Slides</h4>
+<h4 style="color: #cc33cc;">Course Materials</h4>
 
-Here are the slides for a quick reference:
+<!-- ### Python for Data Wrangling Course Modules -->
 
-<!-- #### Lecture slides:  -->
+  * **Module 1: Basic Navigation and Programming**
+      * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html)
 
 
-* [Lecture 1: Basic Navigation and Programming](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html)
+  * **Module 2: Data Querying and Manipulation**
+      * [Slides for Module 2](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-2/lec-2.html)
 
-* [Lecture 2: Data Querying and Manipulation](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-2/lec-2.html)
 
-* [Lecture 3: Joining, Relationship and Data Modeling](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-3/lec-3.html)
+  * **Module 3: Joining, Relationship and Data Modeling**
+      * [Slides for Module 3](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-3/lec-3.html)
 
-* [Lecture 4: Data Transformation](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-4/lec-4.html)
 
-* [Lecture 5: Computation and Visualization](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-5/lec-5.html)
+  * **Module 4: Data Transformation**
+      * [Slides for Module 4](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-4/lec-4.html)
 
-* [Lecture 6: Programming and Automation](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-6/lec-6.html)
+
+  * **Module 5: Computation and Visualization**
+      * [Slides for Module 5](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-5/lec-5.html)
+
+
+  * **Module 6: Programming and Automation**
+     * [Slides for Module 6](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-6/lec-6.html)
 
 #### Assignments: 
  
