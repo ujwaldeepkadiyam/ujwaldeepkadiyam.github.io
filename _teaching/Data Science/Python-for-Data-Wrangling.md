@@ -3,8 +3,9 @@ layout: page # Use the standard page layout
 title: Python-for-Data-Wrangling # The title of the course. replace space with -
 hide_title: true
 # permalink: /teaching/data-science-foundations/
-course_number: CS 101
-term: Fall 2024
+course_number: Data Science
+# hide_course_number: true
+term: Summer 2024
 category: Data Science # Add this line
 ---
 
