@@ -1,7 +1,14 @@
+{% comment %}
+Breadcrumbs Include for GitHub Pages
+- Shows Home › Parent › Subpage › Current Page
+- Works with parent hierarchy declared via front matter (`parent`) or collections
+- Unordered list, no numbering
+{% endcomment %}
+
 {% assign crumbs = "" | split: "" %}
 
 {%- comment -%}
-Step 1: Check parent from front matter or collection mapping
+Step 1: Find parent from front matter or collection mapping
 {%- endcomment -%}
 {% assign parent_title = page.parent %}
 {% if parent_title == nil and page.collection %}
@@ -9,8 +16,7 @@ Step 1: Check parent from front matter or collection mapping
 {% endif %}
 
 {%- comment -%}
-Step 2: Build crumbs array manually
-We don’t use while — just a for loop with a max depth (to avoid infinite loops).
+Step 2: Walk up the parent chain (max 5 levels)
 {%- endcomment -%}
 {% for i in (1..5) %}
   {% if parent_title %}
@@ -26,12 +32,15 @@ We don’t use while — just a for loop with a max depth (to avoid infinite loo
   {% endif %}
 {% endfor %}
 
+
 <nav aria-label="breadcrumb" class="breadcrumbs">
-  <ol>
+  <ul style="list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:5px;">
     <li><a href="{{ '/' | relative_url }}">Home</a></li>
     {% for crumb in crumbs reversed %}
-      <li><a href="{{ crumb.url | relative_url }}">{{ crumb.title }}</a></li>
+      <li>&nbsp;›&nbsp;<a href="{{ crumb.url | relative_url }}">{{ crumb.title }}</a></li>
     {% endfor %}
-    <li aria-current="page">{{ page.title }}</li>
-  </ol>
+    <li>&nbsp;›&nbsp;{{ page.title }}</li>
+  </ul>
 </nav>
+
+
