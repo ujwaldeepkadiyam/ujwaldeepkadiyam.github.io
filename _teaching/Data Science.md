@@ -13,7 +13,7 @@ nav: false
 
 Here you will find all courses related to **Data Science**.
 
-<ul>
+<!-- <ul>
   {% for course in site.teaching %}
     {% if course.category == "Data Science" %}
     <li>
@@ -22,4 +22,17 @@ Here you will find all courses related to **Data Science**.
     </li>
     {% endif %}
   {% endfor %}
+</ul> -->
+
+<ul>
+  {% assign sorted_courses = site.teaching | sort: "course_number" %}
+  {% for course in sorted_courses %}
+    {% if course.category == "Data Science" %}
+      <li>
+        <a href="{{ course.url }}">{{ course.title }}</a>
+        ({{ course.course_number }}) - {{ course.term }}
+      </li>
+    {% endif %}
+  {% endfor %}
 </ul>
+

@@ -8,15 +8,16 @@ nav: False
 
 # Mathematical Foundations
 
-Here you will find all courses related to **Mathematical Foundations**.
+Here you will find all courses on **Mathematical Foundations**.
 
 <ul>
-  {% for course in site.teaching %}
-    {% if course.category == "Mathematical Foundations" %}
-    <li>
-      <a href="{{ course.url }}">{{ course.title }}</a>
-      ({{ course.course_number }}) - {{ course.term }}
-    </li>
+  {% assign sorted_courses = site.teaching | sort: "course_number" %}
+  {% for course in sorted_courses %}
+    {% if course.category == "Data Science" %}
+      <li>
+        <a href="{{ course.url }}">{{ course.title }}</a>
+        ({{ course.course_number }}) - {{ course.term }}
+      </li>
     {% endif %}
   {% endfor %}
 </ul>

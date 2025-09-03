@@ -5,6 +5,8 @@
 
 // Dimensions
 $max-content-width: {{ site.max_width }};
+// $max-content-width: #{ "{{ site.max_width | default: '1200px' }}" };
+
 
 @import
   "variables",
@@ -25,31 +27,99 @@ $max-content-width: {{ site.max_width }};
   "custom"
 ;
 
+// .breadcrumbs {
+//   margin: 0.5em 0;
+//   font-size: 0.9em;
+// }
+
+// .breadcrumbs ol {
+//   list-style: none;
+//   padding: 0;
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .breadcrumbs li + li:before {
+//   content: "›";
+//   padding: 0 0.5em;
+//   color: #999;
+// }
+
+// .breadcrumbs a {
+//   text-decoration: none;
+//   color: #c0392b;
+// }
+
+// .breadcrumbs a:hover {
+//   text-decoration: underline;
+// }
+
+
+
+// .breadcrumbs ul {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+//   display: flex;
+//   gap: 5px;
+//   flex-wrap: wrap;
+// }
+
+// .breadcrumbs li a {
+//   text-decoration: none;
+//   color: #007bff;
+// }
+
+// .breadcrumbs li:last-child a {
+//   font-weight: bold;
+//   color: #000;
+// }
+
+
+// _breadcrumbs.scss
+// Al-Folio styled breadcrumbs
+// GitHub Pages & VS Code friendly
+
 .breadcrumbs {
+  font-size: 0.9rem;
   margin: 0.5em 0;
-  font-size: 0.9em;
-}
 
-.breadcrumbs ol {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em; // spacing between items
+    align-items: center;
+  }
 
-.breadcrumbs li + li:before {
-  content: "›";
-  padding: 0 0.5em;
-  color: #999;
-}
+  li {
+    position: relative;
 
-.breadcrumbs a {
-  text-decoration: none;
-  color: #c0392b;
-}
+    a {
+      text-decoration: none;
+      color: #cc33cc; // Al-Folio accent color
+      transition: color 0.2s ease;
 
-.breadcrumbs a:hover {
-  text-decoration: underline;
+      &:hover {
+        color: #ff3366; // hover accent
+        text-decoration: underline;
+      }
+    }
+
+    &:last-child a {
+      font-weight: bold;
+      color: #000; // current page
+      pointer-events: none; // optional, prevent clicking current page
+    }
+
+    & + li::before {
+      content: "›"; // arrow separator
+      margin: 0 0.5em;
+      color: #999;
+    }
+  }
 }
 
 
