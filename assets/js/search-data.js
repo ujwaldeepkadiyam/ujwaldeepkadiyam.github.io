@@ -496,11 +496,21 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-data-science",
+          title: 'Data Science',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/";
             },},{id: "teaching-python-for-data-wrangling",
           title: 'Python-for-Data-Wrangling',
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/";
+            },},{id: "teaching-mathematical-foundations",
+          title: 'Mathematical Foundations',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/%20%20%20Mathematical%20Foundations/";
             },},{id: "teaching-stat",
           title: 'Stat',
           description: "",
