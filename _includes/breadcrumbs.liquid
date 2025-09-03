@@ -1,0 +1,37 @@
+{% assign crumbs = "" | split: "" %}
+
+{%- comment -%}
+Step 1: Check parent from front matter or collection mapping
+{%- endcomment -%}
+{% assign parent_title = page.parent %}
+{% if parent_title == nil and page.collection %}
+  {% assign parent_title = site.breadcrumb_parents[page.collection] %}
+{% endif %}
+
+{%- comment -%}
+Step 2: Build crumbs array manually
+We don’t use while — just a for loop with a max depth (to avoid infinite loops).
+{%- endcomment -%}
+{% for i in (1..5) %}
+  {% if parent_title %}
+    {% assign parent_page = site.pages | where: "title", parent_title | first %}
+    {% if parent_page %}
+      {% assign crumbs = crumbs | push: parent_page %}
+      {% assign parent_title = parent_page.parent %}
+    {% else %}
+      {% assign parent_title = nil %}
+    {% endif %}
+  {% else %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<nav aria-label="breadcrumb" class="breadcrumbs">
+  <ol>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    {% for crumb in crumbs reversed %}
+      <li><a href="{{ crumb.url | relative_url }}">{{ crumb.title }}</a></li>
+    {% endfor %}
+    <li aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>

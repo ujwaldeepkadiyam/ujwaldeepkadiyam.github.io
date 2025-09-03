@@ -7,6 +7,7 @@ course_number: Data Science
 # hide_course_number: true
 term: Summer 2024
 category: Data Science # Add this line
+parent: Data Science
 ---
 
 <h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Python for Data Wrangling</strong></h2>

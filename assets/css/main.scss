@@ -24,3 +24,32 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss",
   "custom"
 ;
+
+.breadcrumbs {
+  margin: 0.5em 0;
+  font-size: 0.9em;
+}
+
+.breadcrumbs ol {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breadcrumbs li + li:before {
+  content: "›";
+  padding: 0 0.5em;
+  color: #999;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: #c0392b;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+
