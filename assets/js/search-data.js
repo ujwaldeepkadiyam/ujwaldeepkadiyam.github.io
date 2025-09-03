@@ -501,6 +501,11 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Data%20Science/";
+            },},{id: "teaching-data-science-projects",
+          title: 'Data-Science-Projects',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Data-Science-Projects/";
             },},{id: "teaching-python-for-data-wrangling",
           title: 'Python-for-Data-Wrangling',
           description: "",
