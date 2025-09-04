@@ -24,7 +24,19 @@ order: 2
 </p>
 
 <p style="text-align: justify;">
-  The projects span diverse domains — from healthcare and finance to social sciences and engineering — 
+  The projects span diverse domains — from healthcare, finance, Telecom and engineering — 
   allowing you to learn how data science techniques are applied across different fields. 
   By studying datasets from various backgrounds, you develop the ability to generalize your skills and approach new problems with confidence.
 </p>
+
+<h4 style="color: #cc33cc;">Projects</h4>
+
+<h5 style="color: #000000;">Banking</h5>
+
+- [Banking: Credit Risk Analysis](/teaching/Data Science/DSProjects/Project_Notebook-1.Banking_Credit_Risk.html)
+
+<h5 style="color: #000000;">Telecom</h5>
+- [Telecom: Churn Prediction](/teaching/Data Science/DSProjects/Project_Notebook-2.Telecom_Churn_Prediction.html)
+
+<h5 style="color: #000000;">HealthCare</h5>
+- [Healthcare: Stroke Prediction](/teaching/Data Science/DSProjects/Project_Notebook-3.Stroke Prediction.html)
