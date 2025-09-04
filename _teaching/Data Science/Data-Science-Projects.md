@@ -9,12 +9,23 @@ term: Summer 2024
 category: Data Science # Add this line
 parent: Data Science
 order: 2
+# toc:
+#   sidebar: top
+toc: true
 ---
 
 <h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Data Science Projects</strong></h2>
 
+<!-- Quick Navigation Bar -->
+<div class="jump-nav">
+  <strong>Quick Access:</strong>
+  <a href="#introduction">Introduction</a> | 
+  <a href="#projects">Projects</a>
+</div>
+
+
 <!-- #### Course Introduction  -->
-<h4 style="color: #cc33cc;">Introduction</h4>
+<h4 id="introduction" style="color: #cc33cc;">Introduction</h4>
 
 <p style="text-align: justify;">
   Here you will find all projects related to <strong>Data Science</strong>. 
@@ -29,7 +40,7 @@ order: 2
   By studying datasets from various backgrounds, you develop the ability to generalize your skills and approach new problems with confidence.
 </p>
 
-<h4 style="color: #cc33cc;">Projects</h4>
+<h4 id="projects" style="color: #cc33cc;">Projects</h4>
 
 <h5 style="color: #000000;">Banking</h5>
 
@@ -40,3 +51,6 @@ order: 2
 
 <h5 style="color: #000000;">HealthCare</h5>
 - [Healthcare: Stroke Prediction](/teaching/Data Science/DSProjects/Project_Notebook-3.Stroke Prediction.html)
+
+<h5 style="color: #000000;">Sentiment Analysis</h5>
+- [Sentiment Analysis: Amazon Product Review](/teaching/Data Science/DSProjects/Project_Notebook-6.Amazon_Review_Sentiment_Analysis.html) <!-- -#(Beginner Level) -->
