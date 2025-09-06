@@ -50,12 +50,12 @@
       "institution": "Indian Institute of Technology, Guwahati",
       "location": "Guwahati, Assam, India",
       "url": "https://wwww.iitg.ac.in",
-      "area": "Error Correcting Codes, Information Theory, Cryptography",
+      "area": "Error Correcting Codes, Information Theory, Cryptography, Artificial Intelligence",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "Jan 2014",
+      "endDate": "July 2021",
+      // "score": "10",
+      // "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
