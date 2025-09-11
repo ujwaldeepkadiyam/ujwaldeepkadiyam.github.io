@@ -501,6 +501,11 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Data%20Science/";
+            },},{id: "teaching-project-q-amp-a",
+          title: 'Project Q&amp;amp;A',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/DSProjects/QA_for_banking_give_me_some_credit/";
             },},{id: "teaching-data-science-projects",
           title: 'Data-Science-Projects',
           description: "",
@@ -521,6 +526,31 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Mathematical%20Foundations/stat/";
+            },},{id: "teaching-assignment-session-1-questions-site",
+          title: 'Assignment Session 1   questions_site',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Assignments/Assignment-Session-1%20-%20Questions_Site/";
+            },},{id: "teaching-assignment-session-2-questions",
+          title: 'Assignment Session 2   questions',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Assignments/Assignment-Session-2%20-%20Questions/";
+            },},{id: "teaching-assignment-session-4-questions",
+          title: 'Assignment Session 4   questions',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Assignments/Assignment-Session-4%20-%20Questions/";
+            },},{id: "teaching-assignment-session-5-questions",
+          title: 'Assignment Session 5 Questions',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Assignments/Assignment-Session-5-Questions/";
+            },},{id: "teaching-assignment-session-6-questions",
+          title: 'Assignment Session 6 Questions',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Assignments/Assignment-Session-6-Questions/";
             },},{
         id: 'social-email',
         title: 'email',
