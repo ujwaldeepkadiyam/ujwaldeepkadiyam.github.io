@@ -45,6 +45,9 @@ toc: true
 <h5 style="color: #000000;">Banking</h5>
 
 - [Banking: Credit Risk Analysis](/teaching/Data Science/DSProjects/Project_Notebook-1.Banking_Credit_Risk.html)
+- Have a question? [Click here to ask a question regarding this project]([/questions/](https://docs.google.com/forms/d/e/1FAIpQLSdN_V9JE4pDM-gtPUgn3q_Bb7ah7t2NHbiv1NU2Cmm1KzR9-Q/viewform?usp=sharing&ouid=117060334552091133793))
+- Want to view questions and answers ? [Click here](/teaching/Data Science/DSProjects/QA_for_banking_give_me_some_credit/)
+
 
 <h5 style="color: #000000;">Telecom</h5>
 - [Telecom: Churn Prediction](/teaching/Data Science/DSProjects/Project_Notebook-2.Telecom_Churn_Prediction.html)
