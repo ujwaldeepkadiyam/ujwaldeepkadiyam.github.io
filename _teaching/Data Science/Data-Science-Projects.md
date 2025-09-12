@@ -41,8 +41,8 @@ toc: true
 </p>
 
 <h4 id="projects" style="color: #cc33cc;">Projects</h4>
-
-<h5 style="color: #0A1BF0;">Banking</h5>
+<!-- #0A1BF0 -->
+<h5 style="color: #3D4DFC;">Banking</h5>  
 1. [Banking: Credit Risk Analysis](/teaching/Data Science/DSProjects/ML_Project_Give_Me_Some_Credit.html): A model to predict if a new customer who is seeking loan is risky or not.
   * Discussion & Clarifications for this project: [Click here](/teaching/Data Science/DSProjects QA_for_banking_give_me_some_credit/)
   * Still have a query? [Click here to ask a question regarding this project](https://docs.google.com/forms/d/1TGc4xgPqC0aCiWqdH7qMOQ9gPOcPcFyowUDq39vKXtM)
