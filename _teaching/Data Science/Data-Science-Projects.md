@@ -44,7 +44,7 @@ toc: true
 
 <h5 style="color: #000000;">Banking</h5>
 
-- [Banking: Credit Risk Analysis](/teaching/Data Science/DSProjects/Project_Notebook-1.Banking_Credit_Risk.html)
+- [Banking: Credit Risk Analysis](/teaching/Data Science/DSProjects/ML_Project_Give_Me_Some_Credit.html)
 - Discussion & Clarifications for this project: [Click here](/teaching/Data Science/DSProjects/QA_for_banking_give_me_some_credit/)
 - Still have a query? [Click here to ask a question regarding this project](https://docs.google.com/forms/d/1TGc4xgPqC0aCiWqdH7qMOQ9gPOcPcFyowUDq39vKXtM)
 
