@@ -42,18 +42,17 @@ toc: true
 
 <h4 id="projects" style="color: #cc33cc;">Projects</h4>
 
-<h5 style="color: #000000;">Banking</h5>
+<h5 style="color: #0A1BF0;">Banking</h5>
+1. [Banking: Credit Risk Analysis](/teaching/Data Science/DSProjects/ML_Project_Give_Me_Some_Credit.html): A model to predict if a new customer who is seeking loan is risky or not.
+  * Discussion & Clarifications for this project: [Click here](/teaching/Data Science/DSProjects QA_for_banking_give_me_some_credit/)
+  * Still have a query? [Click here to ask a question regarding this project](https://docs.google.com/forms/d/1TGc4xgPqC0aCiWqdH7qMOQ9gPOcPcFyowUDq39vKXtM)
 
-- [Banking: Credit Risk Analysis](/teaching/Data Science/DSProjects/ML_Project_Give_Me_Some_Credit.html)
-- Discussion & Clarifications for this project: [Click here](/teaching/Data Science/DSProjects/QA_for_banking_give_me_some_credit/)
-- Still have a query? [Click here to ask a question regarding this project](https://docs.google.com/forms/d/1TGc4xgPqC0aCiWqdH7qMOQ9gPOcPcFyowUDq39vKXtM)
 
-
-<h5 style="color: #000000;">Telecom</h5>
+<h5 style="color: #3D4DFC;">Telecom</h5>
 - [Telecom: Churn Prediction](/teaching/Data Science/DSProjects/Project_Notebook-2.Telecom_Churn_Prediction.html)
 
-<h5 style="color: #000000;">HealthCare</h5>
+<h5 style="color: #3D4DFC;">HealthCare</h5>
 - [Healthcare: Stroke Prediction](/teaching/Data Science/DSProjects/Project_Notebook-3.Stroke Prediction.html)
 
-<h5 style="color: #000000;">Sentiment Analysis</h5>
+<h5 style="color: #3D4DFC;">Sentiment Analysis</h5>
 - [Sentiment Analysis: Amazon Product Review](/teaching/Data Science/DSProjects/Project_Notebook-6.Amazon_Review_Sentiment_Analysis.html) <!-- -#(Beginner Level) -->
