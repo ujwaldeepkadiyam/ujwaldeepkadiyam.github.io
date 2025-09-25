@@ -516,6 +516,36 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/";
+            },},{id: "teaching-basic-navigation-and-programming",
+          title: 'Basic Navigation And Programming',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_1/";
+            },},{id: "teaching-data-querying-and-manipulation",
+          title: 'Data Querying and Manipulation',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_2/";
+            },},{id: "teaching-joining-relationship-and-data-modeling",
+          title: 'Joining, Relationship And Data Modeling',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_3/";
+            },},{id: "teaching-data-transformation",
+          title: 'Data Transformation',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_4/";
+            },},{id: "teaching-computation-and-visualization",
+          title: 'Computation and Visualization',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_5/";
+            },},{id: "teaching-programming-and-automation",
+          title: 'Programming And Automation',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_6/";
             },},{id: "teaching-mathematical-foundations",
           title: 'Mathematical Foundations',
           description: "",
