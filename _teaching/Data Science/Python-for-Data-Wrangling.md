@@ -42,26 +42,32 @@ order: 1
 
   * **Module 1: Basic Navigation and Programming**
       * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html)
+      * [Module 1 at a Glance](/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_1/)
 
 
   * **Module 2: Data Querying and Manipulation**
       * [Slides for Module 2](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-2/lec-2.html)
+      * [Module 2 at a Glance](/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_2/)
 
 
   * **Module 3: Joining, Relationship and Data Modeling**
       * [Slides for Module 3](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-3/lec-3.html)
+      * [Module 3 at a Glance](/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_3/)
 
 
   * **Module 4: Data Transformation**
       * [Slides for Module 4](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-4/lec-4.html)
+      * [Module 4 at a Glance](/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_4/)
 
 
   * **Module 5: Computation and Visualization**
       * [Slides for Module 5](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-5/lec-5.html)
+      * [Module 5 at a Glance](/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_5/)
 
 
   * **Module 6: Programming and Automation**
      * [Slides for Module 6](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-6/lec-6.html)
+     * [Module 6 at a Glance](/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_6/)
 
 #### Assignments: 
  
