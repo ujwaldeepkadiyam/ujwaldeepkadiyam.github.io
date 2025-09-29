@@ -581,6 +581,36 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Assignments/Assignment-Session-6-Questions/";
+            },},{id: "teaching-assignment-session-1-questions",
+          title: 'Assignment Session_1_questions',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_1_Questions/";
+            },},{id: "teaching-assignment-session-2-questions",
+          title: 'Assignment Session_2_questions',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_2_Questions/";
+            },},{id: "teaching-assignment-session-3-questions",
+          title: 'Assignment Session_3_questions',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_3_Questions/";
+            },},{id: "teaching-assignment-session-4-questions",
+          title: 'Assignment Session_4_questions',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_4_Questions/";
+            },},{id: "teaching-assignment-session-5-questions",
+          title: 'Assignment Session_5_questions',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_5_Questions/";
+            },},{id: "teaching-assignment-session-6-questions",
+          title: 'Assignment Session_6_questions',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_6_Questions/";
             },},{
         id: 'social-email',
         title: 'email',
