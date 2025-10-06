@@ -8,6 +8,7 @@ course_number: Data Science
 term: Summer 2024
 category: Data Science # Add this line
 parent: Data Science
+# grand_parent: Data Science
 order: 1
 ---
 

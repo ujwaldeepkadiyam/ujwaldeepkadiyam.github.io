@@ -4,7 +4,7 @@ layout: page
 permalink: /teaching/Data Science/Python-for-Data-Wrangling/quick_reference/lec_6/
 hide_title: true
 parent: Python-for-Data-Wrangling
-# grand_parent: "Python-for-Data-Wrangling"
+grand_parent: Data Science
 ---
 
 <h1 align="center"> 6. Programming And Automation</h1>

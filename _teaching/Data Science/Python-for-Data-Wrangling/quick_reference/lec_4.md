@@ -4,7 +4,7 @@ layout: page
 permalink: /teaching/Data Science/Python-for-Data-Wrangling/quick_reference/lec_4/
 hide_title: true
 parent: Python-for-Data-Wrangling
-# grand_parent: "Python-for-Data-Wrangling"
+grand_parent: Data Science
 ---
 
 <h1 align="center"> 4. Data Transformation</h1>
