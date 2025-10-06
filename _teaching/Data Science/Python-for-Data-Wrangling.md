@@ -76,32 +76,32 @@ order: 1
   * **Module 1: Basic Navigation and Programming**
       <!-- * [Practice Notebook for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-X/lec-X.html) -->
       * [![Practice Notebook for Module 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujwaldeepkadiyam/ujwaldeepkadiyam.github.io/blob/main/_teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_1_Questions.ipynb)
-      * [Solution for Practice Notebook for Module 1](/_teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_1.html)
+      * [Solution for Practice Notebook for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_1.html)
 
 _teaching\Data Science\Python-for-Data-Wrangling\Slides\Assignment-Session_1_Questions.ipynb
   * **Module 2: Data Querying and Manipulation**
       * [![Practice Notebook for Module 2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujwaldeepkadiyam/ujwaldeepkadiyam.github.io/blob/main/_teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_2_Questions.ipynb)
-      * [Solution for Practice Notebook for Module 2](/_teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_2.html)
+      * [Solution for Practice Notebook for Module 2](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_2.html)
 
 
   * **Module 3: Joining, Relationship and Data Modeling**
       * [![Practice Notebook for Module 3](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujwaldeepkadiyam/ujwaldeepkadiyam.github.io/blob/main/_teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_3_Questions.ipynb)
-      * [Solution for Practice Notebook for Module 3](/_teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_3.html)
+      * [Solution for Practice Notebook for Module 3](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_3.html)
 
 
   * **Module 4: Data Transformation**
       * [![Practice Notebook for Module 4](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujwaldeepkadiyam/ujwaldeepkadiyam.github.io/blob/main/_teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_4_Questions.ipynb)
-      * [Solution for Practice Notebook for Module 4](/_teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_4.html)
+      * [Solution for Practice Notebook for Module 4](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_4.html)
 
 
   * **Module 5: Computation and Visualization**
       * [![Practice Notebook for Module 5](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujwaldeepkadiyam/ujwaldeepkadiyam.github.io/blob/main/_teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_5_Questions.ipynb)
-      * [Solution for Practice Notebook for Module 5](/_teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_5.html)
+      * [Solution for Practice Notebook for Module 5](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_5.html)
 
 
   * **Module 6: Programming and Automation**
       * [![Practice Notebook for Module 6](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujwaldeepkadiyam/ujwaldeepkadiyam.github.io/blob/main/_teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_6_Questions.ipynb)
-      * [Solution for Practice Notebook for Module 6](/_teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_6.html)
+      * [Solution for Practice Notebook for Module 6](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_6.html)
 
 
  
