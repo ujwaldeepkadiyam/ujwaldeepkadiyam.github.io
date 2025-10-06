@@ -76,7 +76,6 @@ order: 1
   * **Module 1: Basic Navigation and Programming**
       <!-- * [Practice Notebook for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-X/lec-X.html) -->
       * [![Practice Notebook for Module 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujwaldeepkadiyam/ujwaldeepkadiyam.github.io/blob/main/_teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_1_Questions.ipynb)
-
       * [Solution for Practice Notebook for Module 1](/_teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_1.html)
 
 _teaching\Data Science\Python-for-Data-Wrangling\Slides\Assignment-Session_1_Questions.ipynb
