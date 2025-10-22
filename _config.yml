@@ -162,10 +162,25 @@ collections:
 # -----------------------------------------------------------------------------
 
 # Markdown and syntax highlight
+# markdown: kramdown
+# highlighter: rouge
+# kramdown:
+#   input: GFM
+#   syntax_highlighter_opts:
+#     css_class: "highlight"
+#     span:
+#       line_numbers: false
+#     block:
+#       line_numbers: false
+#       start_line: 1
+
+
 markdown: kramdown
 highlighter: rouge
+
 kramdown:
   input: GFM
+  math_engine: mathjax    # ✅ this enables LaTeX rendering via MathJax
   syntax_highlighter_opts:
     css_class: "highlight"
     span:
@@ -173,6 +188,7 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+
 
 # Includes & excludes
 include: ["_pages", "_scripts","_teaching/"]
@@ -212,7 +228,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll/scholar
+  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-terser
@@ -226,12 +242,12 @@ plugins:
 # Other settings...
 
 # --- Jekyll Scholar ---
-jekyll-scholar:
-  style: apa
-  locale: en
-  categories:
-    - journal
-    - conference
+# jekyll-scholar:
+#   style: apa
+#   locale: en
+#   categories:
+#     - journal
+#     - conference
 #---------------------------------------------------------------------------------------------------
 
 # Sitemap settings
@@ -285,7 +301,7 @@ scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
@@ -305,6 +321,7 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
