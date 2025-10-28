@@ -550,12 +550,12 @@ ninja.data = [{
           title: 'Mathematical Foundations',
           description: "",
           section: "Teaching",handler: () => {
-              window.location.href = "/teaching/%20%20%20Mathematical%20Foundations/";
-            },},{id: "teaching-stat",
-          title: 'Stat',
+              window.location.href = "/teaching/Mathematical%20Foundations/";
+            },},{id: "teaching-foundations-of-statistics",
+          title: 'FOUNDATIONS OF STATISTICS',
           description: "",
           section: "Teaching",handler: () => {
-              window.location.href = "/teaching/Mathematical%20Foundations/stat/";
+              window.location.href = "/teaching/Mathematical%20Foundations/statistics/";
             },},{id: "teaching-assignment-session-1-questions-site",
           title: 'Assignment Session 1   questions_site',
           description: "",
