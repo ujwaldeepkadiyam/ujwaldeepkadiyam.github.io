@@ -45,8 +45,8 @@ hide_title: true
 
 <!-- ### Python for Data Wrangling Course Modules -->
 
-  * **Module 1: Basic Navigation and Programming**
-      * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html)
+  * **Module 1: Introduction to Descriptive Statistics**
+      * [Slides for Module 1](/teaching/Mathematical Foundations/statistics/slides_marp_1.html)
       * [Module 1 at a Glance](/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_1/)
 
 
