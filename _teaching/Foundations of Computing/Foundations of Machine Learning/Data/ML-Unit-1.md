@@ -1,11 +1,12 @@
 ---
 title: Unit-1 Introduction and Regression
-layout: page-narrow
+layout: page
 permalink: /teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/
 hide_title: true
 parent: Foundations of Machine Learning
 grand_parent: Foundations of Computing
 math: true
+wide: false
 ---
 
 <h1 align="center"> Unit-1: Introduction and Regression</h1>
