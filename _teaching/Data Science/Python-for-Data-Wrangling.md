@@ -2,7 +2,7 @@
 layout: page # Use the standard page layout
 title: Python-for-Data-Wrangling # The title of the course. replace space with -
 hide_title: true
-# permalink: /teaching/data-science-foundations/
+permalink: /teaching/Data Science/Python-for-Data-Wrangling/
 course_number: Data Science
 # hide_course_number: true
 term: Summer 2024
@@ -10,7 +10,7 @@ category: Data Science # Add this line
 parent: Data Science
 # grand_parent: Data Science
 # order: 1
-nav: true
+# nav: true
 ---
 
 <h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Python for Data Wrangling</strong></h2>
