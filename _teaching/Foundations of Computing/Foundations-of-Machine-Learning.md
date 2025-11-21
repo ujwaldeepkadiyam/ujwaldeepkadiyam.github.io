@@ -9,8 +9,8 @@ term: Summer 2024
 category: Foundations of Computing # Add this line
 parent: Foundations of Computing
 # grand_parent: Data Science
-order: 1
-nav: true
+# order: 1
+# nav: true
 ---
 
 <h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Foundations of Machine Learning</strong></h2>
