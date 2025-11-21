@@ -20,7 +20,7 @@ Imagine a world where every useful rule can be written by hand:
     
 - A rule for detecting diseases
     
-- A rule for recognizing speech
+- A rule for recognizing speech 
 
 
 Very soon, we realize something powerful:
