@@ -1957,7 +1957,9 @@ The factor (1/(2m)) is just a convenient scaling; it doesn’t change which line
 
 ![](/assets/img/Lecture%20Notes/Computing/Foundations%20of%20ML/attachments/Pasted%20image%2020251120145120.png)
 
+
 - An *Example* data with **Fitted**  Line.
+
 ---
 <h3 class="page-header" style="text-align: left; color: blue;">
   <strong style="color: #cc33cc;">How the Computer Finds the Best Line</strong>
@@ -2038,12 +2040,15 @@ Here, $(k)$ controls how “local” the model is:
 
 The regression formula is then solved with these weights included, yielding a line that is tailored to the neighborhood of (x). As we move across the input range, the local line changes smoothly, tracing out a curve.
 
-![](attachments/Pasted%20image%2020251120145251.png)
+![](/assets/img/Lecture%20Notes/Computing/Foundations%20of%20ML/attachments/Pasted%20image%2020251120145251.png)
+
 
 
 -  Plot showing the original data in the top frame and the weights applied to each piece of data (if we were forecasting the value of x=0.5). The second frame shows that with k=0.5, most of the data is included, whereas the bottom frame shows that if k=0.01, only a few local points will be included in the regression.
 
-  ![](attachments/Pasted%20image%2020251120145440.png)
+  ![](/assets/img/Lecture%20Notes/Computing/Foundations%20of%20ML/attachments/Pasted%20image%2020251120145440.png)
+
+
   - Plot showing locally weighted linear regression with three smoothing values. The top frame has a smoothing value of k=1.0, the middle frame has k=0.01, and the bottom frame has k=0.003. The top value of k is no better than least squares. The middle value captures some of the underlying data pattern. The bottom frame fits the best-fit line to noise in the data and results in overfitting.
 
 These figures make it clear how adjusting (k) moves us from a stiff straight line to an over-flexible wiggly curve.
@@ -2385,7 +2390,8 @@ At $(z = 0)$: $(\sigma(0) = 0.5)$
 
 It rises gently, never abruptly, and gives us a perfect probability-like value.
 
-   ![](attachments/Pasted%20image%2020251120145607.png)
+   ![](/assets/img/Lecture%20Notes/Computing/Foundations%20of%20ML/attachments/Pasted%20image%2020251120145607.png)
+
 - Two plots of the sigmoid — one zoomed in, one zoomed out.
 
 
@@ -2464,7 +2470,9 @@ Where:
 
 Visually, imagine standing on a hill of likelihood values. Each step takes you upward until no further improvement is possible.
 
-![](attachments/Pasted%20image%2020251120145653.png)
+![](/assets/img/Lecture%20Notes/Computing/Foundations%20of%20ML/attachments/Pasted%20image%2020251120145653.png)
+
+
 -  Gradient ascent example illustration.
 
 ---
