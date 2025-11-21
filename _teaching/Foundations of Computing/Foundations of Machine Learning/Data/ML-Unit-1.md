@@ -3,8 +3,8 @@ title: Unit-1 Introduction and Regression
 layout: page
 permalink: /teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/
 hide_title: true
-parent: Foundations of Machine Learning
-grand_parent: Foundations of Computing
+parent: Foundations-of-Machine-Learning
+grand_parent: Foundations-of-Computing
 math: true
 wide: false
 ---
@@ -1955,7 +1955,7 @@ $$
 
 The factor (1/(2m)) is just a convenient scaling; it doesn’t change which line is best.
 
-![](attachments/Pasted%20image%2020251120145120.png)
+![](/teaching/Foundations of Computing/Foundations of Machine Learning/Data/attachments/Pasted image 20251120145120.png)
 - An *Example* data with **Fitted**  Line.
 ---
 <h3 class="page-header" style="text-align: left; color: blue;">
