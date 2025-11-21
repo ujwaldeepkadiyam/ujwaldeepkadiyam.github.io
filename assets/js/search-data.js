@@ -9,21 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-foundations-of-machine-learning",
-          title: "Foundations of Machine Learning",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/_teaching/Foundations%20of%20Computing/Foundations-of-Machine-Learning/";
-          },
-        },{id: "nav-python-for-data-wrangling",
-          title: "Python-for-Data-Wrangling",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/_teaching/Data%20Science/Python-for-Data-Wrangling/";
-          },
-        },{id: "nav-blog",
+  },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
