@@ -530,7 +530,7 @@ ninja.data = [{
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/";
             },},{id: "teaching-foundations-of-machine-learning",
-          title: 'Foundations of Machine-Learning',
+          title: 'Foundations of Machine Learning',
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Foundations%20of%20Computing/Foundations-of-Machine-Learning/";
