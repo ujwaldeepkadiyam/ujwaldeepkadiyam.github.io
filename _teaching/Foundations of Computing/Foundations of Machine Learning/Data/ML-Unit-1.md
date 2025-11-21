@@ -1,5 +1,5 @@
 ---
-title: Unit-1: Introduction and Regression
+title: Unit-1 Introduction and Regression
 layout: page-narrow
 permalink: /teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/
 hide_title: true
