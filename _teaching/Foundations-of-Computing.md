@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Foundations of Computing
-permalink: /teaching/Foundations of Computing/
+permalink: /teaching/Foundations-of-Computing/
 parent: Teaching
 nav: False
 hide_title: true

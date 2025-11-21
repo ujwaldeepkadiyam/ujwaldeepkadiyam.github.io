@@ -71,7 +71,7 @@ nav_order: 6
   <p style="text-align: justify;">This specialization covers the core mathematical concepts required for advanced studies in science, engineering, and data analysis. 
   Topics include linear algebra, calculus, probability, and discrete mathematics to build a strong foundational skill set.</p>
 
-- <h5 style="text-align: justify;">  <a href="/teaching/Foundations of Computing/" style="color: #cc33cc; text-decoration: none; font-weight: bold;">Foundations of Computing</a></h5>
+- <h5 style="text-align: justify;">  <a href="/teaching/Foundations-of-Computing/" style="color: #cc33cc; text-decoration: none; font-weight: bold;">Foundations of Computing</a></h5>
   <p style="text-align: justify;">This specialization builds the core theoretical foundations of Computer Science, covering Data Structures, Algorithm Design, and Computational Complexity. It emphasizes the mathematical and algorithmic principles essential for Artificial Intelligence, combining rigorous theory with strong practical skills. Advanced modules explore the computational basis of Machine Learning and Cloud Computing, enabling scalable, production-grade system design. The goal is to connect theoretical efficiency with real-world engineering, helping learners understand the limits of computation and the behaviors of modern algorithms.</p>
 
   <!-- This specialization focuses on the theoretical and conceptual foundations of computer science. 

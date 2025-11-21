@@ -1,7 +1,7 @@
 ---
 title: Unit-1: Introduction and Regression
 layout: page-narrow
-permalink: /teaching/Foundations of Computing/Foundations of Machine Learning/Data/ML-Unit-1/
+permalink: /teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/
 hide_title: true
 parent: Foundations of Machine Learning
 grand_parent: Foundations of Computing
