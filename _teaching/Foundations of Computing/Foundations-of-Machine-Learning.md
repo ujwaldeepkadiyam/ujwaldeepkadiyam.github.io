@@ -7,7 +7,7 @@ course_number: Foundations of Computing
 # hide_course_number: true
 term: Summer 2024
 category: Foundations of Computing # Add this line
-parent: Foundations-of-Computing
+parent: Foundations of Computing
 # grand_parent: Data Science
 order: 1
 nav: true
