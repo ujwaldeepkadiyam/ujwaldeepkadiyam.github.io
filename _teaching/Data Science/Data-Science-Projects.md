@@ -8,7 +8,7 @@ course_number: Data Science
 term: Summer 2024
 category: Data Science # Add this line
 parent: Data Science
-order: 2
+order: 3
 # toc:
 #   sidebar: top
 toc: true

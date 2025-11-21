@@ -9,7 +9,7 @@ term: Summer 2024
 category: Foundations of Computing # Add this line
 parent: Foundations of Computing
 # grand_parent: Data Science
-# order: 1
+order: 2
 # nav: true
 ---
 
