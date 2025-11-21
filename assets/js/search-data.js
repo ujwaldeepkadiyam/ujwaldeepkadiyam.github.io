@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-foundations-of-machine-learning",
-          title: "Foundations of Machine-Learning",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/_teaching/Foundations%20of%20Computing/Foundations-of-Machine-Learning/";
-          },
-        },{id: "nav-blog",
+  },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
