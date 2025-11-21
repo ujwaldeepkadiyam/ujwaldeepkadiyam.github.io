@@ -9,7 +9,7 @@ description: ""
 nav: false
 ---
 
-<h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Mathematical Foundations</strong></h2>
+<h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Foundations of Computing</strong></h2>
 
 Here you will find all courses on **Foundations of Computing**.
 
