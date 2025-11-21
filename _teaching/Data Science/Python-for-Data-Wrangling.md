@@ -9,7 +9,8 @@ term: Summer 2024
 category: Data Science # Add this line
 parent: Data Science
 # grand_parent: Data Science
-order: 1
+# order: 1
+nav: true
 ---
 
 <h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Python for Data Wrangling</strong></h2>
