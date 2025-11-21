@@ -68,13 +68,38 @@ nav_order: 6
 
 - <h5><a href="/teaching/Mathematical Foundations/" style="color: #cc33cc; text-decoration: none;font-weight: bold;">Mathematical Foundations</a></h5> 
  
-  This specialization covers the core mathematical concepts required for advanced studies in science, engineering, and data analysis. 
-  Topics include linear algebra, calculus, probability, and discrete mathematics to build a strong foundational skill set.
+  <p style="text-align: justify;">This specialization covers the core mathematical concepts required for advanced studies in science, engineering, and data analysis. 
+  Topics include linear algebra, calculus, probability, and discrete mathematics to build a strong foundational skill set.</p>
+
+- <h5 style="text-align: justify;">  <a href="/teaching/Foundations of Computing/" style="color: #cc33cc; text-decoration: none; font-weight: bold;">Foundations of Computing</a></h5>
+  <p style="text-align: justify;">This specialization builds the core theoretical foundations of Computer Science, covering Data Structures, Algorithm Design, and Computational Complexity. It emphasizes the mathematical and algorithmic principles essential for Artificial Intelligence, combining rigorous theory with strong practical skills. Advanced modules explore the computational basis of Machine Learning and Cloud Computing, enabling scalable, production-grade system design. The goal is to connect theoretical efficiency with real-world engineering, helping learners understand the limits of computation and the behaviors of modern algorithms.</p>
+
+  <!-- This specialization focuses on the theoretical and conceptual foundations of computer science. 
+  It covers core areas such as Data Structures, Design and Analysis of Algorithms, and Computational 
+  Complexity Theory, along with the essential mathematical and algorithmic principles required for 
+  Artificial Intelligence. The program provides a rigorous intellectual and practical framework by 
+  integrating foundational theory with strong Data Structures and Algorithms practice.
+  <br><br>
+  The curriculum extends into advanced, industry-relevant topics, including the mathematical and 
+  computational basis of Machine Learning and the principles of Cloud Computing for scalable, 
+  production-grade system deployment. The overarching goal is to connect theoretical efficiency with 
+  real-world software engineering, enabling learners to understand the fundamental limits of 
+  computation, the behavior and efficiency of algorithms, and the mathematical models that define 
+  what computers can and cannot solve. -->
+
+
+
+
+
+
+<!-- 
+- <h5 style="text-align: justify;"><a href="/teaching/AlgorithmicSystemsEngineering/" style="color: #cc33cc; text-decoration: none;font-weight: bold;">Algorithmic Systems Engineering</a></h5> <p style="text-align: justify;"> This specialization explores the theoretical and conceptual underpinnings of computer science. Topics covered include Data Structures, Design and Analysis of Algorithms, Computational and complexity theory. as well as all the areas that are needed for Aritifical Intelligence. It provides the core intellectual and practical framework by covering foundational theoretical concepts alongside rigorous Data Structures and Algorithms. Topics extend into advanced practice, including the mathematical and computational groundwork for Machine Learning and the principles of Cloud Computing for scalable, industrial-grade system deployment. The ultimate focus is on linking theoretical efficiency to real-world software engineering and practical system building.  The focus is on understanding the fundamental limits of computation, algorithm efficiency, and the mathematical models that define what is possible for a computer to solve. 
+</p> -->
+
 
 
 - <h5><a href="/teaching/Data Science/" style="color: #cc33cc; text-decoration: none;font-weight: bold;">Data Science</a></h5>
-  Dive into the world of data analytics, machine learning, and statistical modeling. 
-  This specialization provides practical skills for processing, analyzing, and visualizing data, with hands-on projects to strengthen learning.
+  <p style="text-align: justify;">Dive into the world of data analytics, machine learning, and statistical modeling. This specialization provides practical skills for processing, analyzing, and visualizing data, with hands-on projects to strengthen learning.</p>
 
 <!-- - <h5><a href="/teaching/Communication Engineering/" style="color: #cc33cc; text-decoration: none;">Communication Engineering</a></h5>
 
