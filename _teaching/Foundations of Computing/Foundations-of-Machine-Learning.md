@@ -1,6 +1,6 @@
 ---
 layout: page # Use the standard page layout
-title: Foundations of Machine-Learning # The title of the course. replace space with -
+title: Foundations of Machine Learning # The title of the course. replace space with -
 hide_title: true
 # permalink: /teaching/data-science-foundations/
 course_number: Foundations of Computing
