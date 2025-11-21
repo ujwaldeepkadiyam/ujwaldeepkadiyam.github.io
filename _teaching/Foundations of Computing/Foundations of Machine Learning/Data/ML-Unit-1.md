@@ -1955,7 +1955,8 @@ $$
 
 The factor (1/(2m)) is just a convenient scaling; it doesn’t change which line is best.
 
-![](/teaching/Foundations of Computing/Foundations of Machine Learning/Data/attachments/Pasted image 20251120145120.png)
+![](/assets/img/Lecture%20Notes/Computing/Foundations%20of%20ML/attachments/Pasted%20image%2020251120145120.png)
+
 - An *Example* data with **Fitted**  Line.
 ---
 <h3 class="page-header" style="text-align: left; color: blue;">
