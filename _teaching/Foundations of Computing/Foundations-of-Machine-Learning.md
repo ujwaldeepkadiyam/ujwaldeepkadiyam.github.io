@@ -32,3 +32,7 @@ parent: Foundations of Computing
   * **Module 1: Introduction to Machine Learning and Regression Models.**
       <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
       * [Lecture Notes For Module 1 ](/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/)
+
+  * **Module 2: Margin-Based (SVM) and Instance-Based (KNN) Learning**
+      <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
+      * [Lecture Notes For Module 2 ](/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-2/)
