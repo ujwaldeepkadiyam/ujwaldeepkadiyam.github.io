@@ -735,7 +735,7 @@ Understanding the target function concept helps us see the entire ML process cle
     ( h(x) ) is too simple to match ( f(x) )
     
 - Good generalization means:  
-    ( h(x) $\approx$  f(x) ) on unseen data
+   ( h(x) $$\approx$$  f(x) ) on unseen data
     
 
 The moment we accept that (f(x)) is hidden and only approximable, machine learning stops being a guessing game and becomes a controlled, principled process.
@@ -773,9 +773,9 @@ $$
 
 We fit it to the observed data and get:
 
-- $(\theta_0 = 22.0)$
+- $$(\theta_0 = 22.0)$$
     
-- $(\theta_1 = 8.5)$
+- $$(\theta_1 = 8.5)$$
     
 
 So:
@@ -964,11 +964,11 @@ $$
 
 Where:
 
-- $( \theta )$ are model parameters
+- $$( \theta )$$ are model parameters
     
-- $( \alpha )$ is the learning rate
+- $$( \alpha )$$ is the learning rate
     
-- $( \nabla_\theta J(\theta) )$ is the gradient
+- $$( \nabla_\theta J(\theta) )$$ is the gradient
     
 
 This lets the model move through a high-dimensional landscape, step by step, toward a good solution.
@@ -1021,7 +1021,7 @@ Examples:
 </h4>
 
 
-Find hypothesis $( h \in H )$ that maximizes:
+Find hypothesis $$( h \in H )$$ that maximizes:
 
 $$  
 P(h \mid Data)  
@@ -1559,11 +1559,11 @@ Example:
 To predict area of a square:
 
 - True relationship:  
-    ( \text{Area} = s^2 )
+    $$( \text{Area} = s^2 )$$
     
-- Representation 1: use feature “s” → nonlinear, needs complex model
+- Representation 1: use feature $$“s”$$ → nonlinear, needs complex model
     
-- Representation 2: use feature “s²” → perfectly linear
+- Representation 2: use feature $$“s²”$$ → perfectly linear
     
 
 Thus representation can simplify the world.
@@ -1931,7 +1931,7 @@ This simplicity is powerful:
 
 Imagine standing in front of a scatter plot with a transparent ruler. You slide and tilt it until the line seems to pass “through the middle” of the points. Your eyes are trying to minimize the overall discrepancy.
 
-For a data point $((x_i, y_i))$, the line predicts $(h(x_i))$. The vertical difference is:
+For a data point $$((x_i, y_i))$$, the line predicts $$(h(x_i))$$. The vertical difference is:
 
 $$  
 \text{error}_i = h(x_i) - y_i  
@@ -1945,7 +1945,7 @@ $$
 
 The best-fit line is the line for which this total squared error is as small as possible.
 
-Formally, we choose (\theta_0, \theta_1) to minimize:
+Formally, we choose $$(\theta_0, \theta_1)$$ to minimize:
 
 $$  
 J(\theta_0,\theta_1)
@@ -1965,7 +1965,7 @@ The factor (1/(2m)) is just a convenient scaling; it doesn’t change which line
   <strong style="color: #cc33cc;">How the Computer Finds the Best Line</strong>
 </h3>
 
-We can think of the total error $(J(θ₀, θ₁))$ as a landscape over the $(θ₀, θ₁)$ plane. Each pair of parameters corresponds to one point in this landscape, with height equal to the error.
+We can think of the total error $$(J(θ₀, θ₁))$$ as a landscape over the $$(θ₀, θ₁)$$ plane. Each pair of parameters corresponds to one point in this landscape, with height equal to the error.
 
 Our goal is to find the lowest point in this landscape.
 
@@ -1983,11 +1983,11 @@ $$
 
 This is the ordinary least squares formula. Here:
 
-- $(X)$ is the matrix of inputs (with a column of ones for $(θ₀)$).
+- $$(X)$$ is the matrix of inputs (with a column of ones for $(θ₀)$).
     
-- $(y)$ is the column vector of outputs.
+- $$(y)$$ is the column vector of outputs.
     
-- $(ŵ)$ denotes our best estimate of the parameter vector.
+- $$(ŵ)$$ denotes our best estimate of the parameter vector.
     
 
 This formula jumps directly to the bottom of the error landscape, provided the inverse $((X^T X)^{-1})$ exists.
@@ -2018,24 +2018,24 @@ Sometimes the relationship is not globally linear. Consider temperature over a d
 
 Locally Weighted Linear Regression (LWLR) addresses this by fitting many local lines instead of one global line.
 
-When predicting at a particular point $(x)$:
+When predicting at a particular point $$(x)$$:
 
 - Nearby training points should matter more.
     
 - Far-away points should matter less.
     
 
-To express this, each training point $((xᵢ, yᵢ))$ is given a weight:
+To express this, each training point $$((xᵢ, yᵢ))$$ is given a weight:
 
 $$  
 w_i = \exp\left( -\frac{(x - x_i)^2}{2k^2} \right)  
 $$
 
-Here, $(k)$ controls how “local” the model is:
+Here, $$(k)$$ controls how “local” the model is:
 
-- Large $(k)$: many points have significant weight → behavior close to standard linear regression.
+- Large $$(k)$$: many points have significant weight → behavior close to standard linear regression.
     
-- Small $(k)$: only very close points influence the fit → model adapts to local bends.
+- Small $$(k)$$: only very close points influence the fit → model adapts to local bends.
     
 
 The regression formula is then solved with these weights included, yielding a line that is tailored to the neighborhood of (x). As we move across the input range, the local line changes smoothly, tracing out a curve.
@@ -2076,11 +2076,11 @@ J_{\text{ridge}}(\theta) =
 \lambda \sum_{j} \theta_j^2  
 $$
 
-Here, $(λ)$ is a regularization parameter:
+Here, $$(λ)$$ is a regularization parameter:
 
-- If $(λ)$ is 0, there is no shrinkage.
+- If $$(λ)$$ is 0, there is no shrinkage.
     
-- If $(λ)$ is large, coefficients are heavily penalized and forced to be small.
+- If $$(λ)$$ is large, coefficients are heavily penalized and forced to be small.
     
 
 This discourages extreme coefficients and produces smoother, more stable models.
@@ -2187,7 +2187,7 @@ Suppose we have three data points:
 - ((2, 3))
 - ((3, 5))
 
-Think of $(x)$ as hours studied and $(y)$ as marks.
+Think of $$(x)$$ as hours studied and $$(y)$$ as marks.
 
 We assume a line:
 
@@ -2195,13 +2195,13 @@ $$
 h(x) = \theta_0 + \theta_1 x  
 $$
 
-Our goal is to find $(\theta_0)$ and $(\theta_1)$ that best fit these points in the least-squares sense.
+Our goal is to find $$(\theta_0)$$ and $$(\theta_1)$$ that best fit these points in the least-squares sense.
 
 <h4 class="page-header" style="text-align: left; color: blue;">
   <strong style="color: #cc33cc;">Write down the normal equation form</strong>
 </h4>
 
-We construct the matrix $X$ and vector $y$:
+We construct the matrix $$X$$ and vector $$y$$:
 
 $$  
 X =  
@@ -2219,7 +2219,7 @@ y =
 \end{bmatrix}  
 $$
 
-Each row of $X$ is $[1 \;\; x_i]$, where the 1 corresponds to $(\theta_0)$.
+Each row of $$X$$ is $$[1 \;\; x_i]$$, where the 1 corresponds to $$(\theta_0)$$.
 
 The normal equation for the best weights is:
 
@@ -2328,14 +2328,14 @@ $$
 
 Check predictions:
 
-- For $(x = 1)$:  
-  $h(1) = \frac{1}{3} + 1.5(1) = 1.833$ (actual 2)
+- For $$(x = 1)$$:  
+  $$h(1) = \frac{1}{3} + 1.5(1) = 1.833$$ (actual 2)
 
-- For $(x = 2)$:  
-  $h(2) = \frac{1}{3} + 1.5(2) = 3.333$ (actual 3)
+- For $$(x = 2)$$:  
+  $$h(2) = \frac{1}{3} + 1.5(2) = 3.333$$ (actual 3)
 
-- For $(x = 3)$:  
-  $h(3) = \frac{1}{3} + 1.5(3) = 4.833$ (actual 5)
+- For $$(x = 3)$$:  
+  $$h(3) = \frac{1}{3} + 1.5(3) = 4.833$$ (actual 5)
 
 The errors are small and balanced.
 
@@ -2384,9 +2384,9 @@ $$
 \sigma(z) = \frac{1}{1 + e^{-z}}  
 $$
 
-At very negative $(z)$: $(\sigma(z) \approx 0)$  
-At very positive $(z)$: $(\sigma(z) \approx 1)$  
-At $(z = 0)$: $(\sigma(0) = 0.5)$
+At very negative $$(z)$$: $$(\sigma(z) \approx 0)$$ 
+At very positive $$(z)$$: $$(\sigma(z) \approx 1)$$ 
+At $$(z = 0)$$: $$(\sigma(0) = 0.5)$$
 
 It rises gently, never abruptly, and gives us a perfect probability-like value.
 
@@ -2401,7 +2401,7 @@ It rises gently, never abruptly, and gives us a perfect probability-like value.
   <strong style="color: #cc33cc;">Turning Features Into a Probability</strong>
 </h3>
 
-How do we move from features to a useful $(z)$ value?
+How do we move from features to a useful $$(z)$$ value?
 
 We create a linear combination of the inputs:
 
@@ -2415,7 +2415,7 @@ $$
 z = w^T x  
 $$
 
-This $(z)$ is then passed through the sigmoid:
+This $$(z)$$ is then passed through the sigmoid:
 
 $$  
 h(x) = \sigma(w^T x)  
@@ -2423,8 +2423,8 @@ $$
 
 Now:
 
-- If $(h(x) > 0.5)$, predict Class 1  
-- If $(h(x) < 0.5)$, predict Class 0  
+- If $$(h(x) > 0.5)$$, predict Class 1  
+- If $$(h(x) < 0.5)$$, predict Class 0  
 
 This is the simplest interpretation: logistic regression outputs the probability of belonging to class 1.
 
@@ -2464,8 +2464,8 @@ $$
 
 Where:
 
-- $(L(w))$ is the log-likelihood  
-- $(\alpha)$ is the learning rate  
+- $$(L(w))$$ is the log-likelihood  
+- $$(\alpha)$$ is the learning rate  
 - The gradient tells us the direction of steepest increase
 
 Visually, imagine standing on a hill of likelihood values. Each step takes you upward until no further improvement is possible.
@@ -2546,14 +2546,14 @@ This example shows how logistic regression converts inputs to a probability.
 
 Suppose we already have a trained logistic regression model with:
 
-- $(\theta_0 = -4)$
-- $(\theta_1 = 2)$
-- $(\theta_2 = 1)$
+- $$(\theta_0 = -4)$$
+- $$(\theta_1 = 2)$$
+- $$(\theta_2 = 1)$$
 
 And suppose a new data point has:
 
-- $(x_1 = 2)$
-- $(x_2 = 3)$
+- $$(x_1 = 2)$$
+- $$(x_2 = 3)$$
 
 <h4 class="page-header" style="text-align: left; color: blue;">
   <strong style="color: #cc33cc;">Step 1: Compute $(z = w^T x)$</strong>
@@ -2595,7 +2595,7 @@ $$
   <strong style="color: #cc33cc;">Step 3: Interpret the result</strong>
 </h4>
 
-The model assigns a 95.26% probability to Class 1.
+The model assigns a $$95.26%$$ probability to Class 1.
 
 Since this is greater than 0.5, the predicted class is:
 
