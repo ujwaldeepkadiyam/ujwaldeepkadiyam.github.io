@@ -529,6 +529,11 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/";
+            },},{id: "teaching-unit-1-introduction-and-regression",
+          title: 'Unit-1 Introduction and Regression',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/";
             },},{id: "teaching-foundations-of-machine-learning",
           title: 'Foundations of Machine Learning',
           description: "",
