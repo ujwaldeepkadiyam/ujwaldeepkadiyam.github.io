@@ -654,7 +654,8 @@ Comparing algorithms without equal treatment leads to biased and invalid conclus
 
 ---
 ![](/assets/img/Lecture%20Notes/Computing/Foundations%20of%20ML/attachments/Pasted%20image%2020251127160303.png)
-							_“k-Fold Cross-Validation Diagram”_
+						
+						_“k-Fold Cross-Validation Diagram”_ 
 
 ---
 
