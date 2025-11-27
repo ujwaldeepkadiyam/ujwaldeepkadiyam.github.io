@@ -1,5 +1,5 @@
 ---
-title: Unit-1-Margin-Based (SVM) and Instance-Based (KNN) Learning
+title: Unit-2 Margin-Based (SVM) and Instance-Based (KNN) Learning
 layout: page
 permalink: /teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-2/
 hide_title: true
