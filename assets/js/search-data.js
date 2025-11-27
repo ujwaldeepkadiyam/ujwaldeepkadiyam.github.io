@@ -539,11 +539,16 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/";
-            },},{id: "teaching-unit-1-margin-based-svm-and-instance-based-knn-learning",
-          title: 'Unit-1-Margin-Based (SVM) and Instance-Based (KNN) Learning',
+            },},{id: "teaching-unit-2-margin-based-svm-and-instance-based-knn-learning",
+          title: 'Unit-2 Margin-Based (SVM) and Instance-Based (KNN) Learning',
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-2/";
+            },},{id: "teaching-unit-3-evaluation-hypotheses",
+          title: 'Unit-3 Evaluation Hypotheses',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-3/";
             },},{id: "teaching-foundations-of-machine-learning",
           title: 'Foundations of Machine Learning',
           description: "",
