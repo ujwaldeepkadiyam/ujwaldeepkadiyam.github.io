@@ -264,9 +264,9 @@ $$
 f(x) = \sum_i \alpha_i y_i K(x_i, x) + b  
 $$
 
-Here $\alpha_i$  are found via SMO
-- Only support vectors have non-zero $(\alpha_i)$
-- $(K)$ replaces the inner product
+Here $$\alpha_i$$  are found via SMO
+- Only support vectors have non-zero $$(\alpha_i)$$
+- $$(K)$$ replaces the inner product
 
 This allows SVMs to draw:
 
@@ -446,7 +446,7 @@ Let’s imagine a new point arrives:  A fruit with unknown label—Apple or Oran
 It looks reddish. It has medium weight. The sweetness is medium.
 
 Instead of learning explicit rules like  
-“Weight $>$ some value(x kg) → Apple”,  k-NN searches for the **k nearest neighbors** from memory and simply votes. If 4 out of 5 neighbors are apples → the fruit is predicted as apple.
+“Weight $$>$$ some value(x kg) → Apple”,  k-NN searches for the **k nearest neighbors** from memory and simply votes. If 4 out of 5 neighbors are apples → the fruit is predicted as apple.
 
 k-NN’s power comes from two ideas:
 
@@ -796,7 +796,7 @@ Suppose we are classifying students as <b>Pass</b> or <b>Fail</b> based on:
 | D       | 6         | 3          | Pass (1)  |
 
 
-Now we get a new student New student X: studied 5 hours and took 2 practice tests → $x = (5, 2)$. We want to predict whether X will <b>Pass</b> or <b>Fail</b> using k-NN.
+Now we get a new student New student X: studied 5 hours and took 2 practice tests → $$x = (5, 2)$$. We want to predict whether X will <b>Pass</b> or <b>Fail</b> using k-NN.
 
 <hr>
 
@@ -828,7 +828,7 @@ $$
 </h4>
 
 
-New student X has features: $x = (5, 2)$.
+New student X has features: $$x = (5, 2)$$.
 
 
 1. **Distance to A: (2, 1), class = Fail (0)**
