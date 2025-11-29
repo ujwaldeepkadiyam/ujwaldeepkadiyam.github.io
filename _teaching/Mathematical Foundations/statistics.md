@@ -1,6 +1,6 @@
 ---
 layout: page # Use the standard page layout
-title: FOUNDATIONS OF STATISTICS # The title of the course. replace space with -
+title: Foundations Of Statistics # The title of the course. replace space with -
 # permalink: /teaching/data-science-foundations/
 course_number: CS 101
 term: Fall 2024
