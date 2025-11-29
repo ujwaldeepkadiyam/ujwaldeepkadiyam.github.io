@@ -564,8 +564,18 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Mathematical%20Foundations/";
+            },},{id: "teaching-mathematics-for-computer-science",
+          title: 'Mathematics For Computer Science',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Mathematical%20Foundations/MFCS-Introduction/";
+            },},{id: "teaching-unit-1-mathematical-logic-and-predicate-calculus",
+          title: 'Unit-1 Mathematical Logic and Predicate Calculus',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Mathematical%20Foundations/Mathematics-for-computer-science/MFCS-UNIT-1/";
             },},{id: "teaching-foundations-of-statistics",
-          title: 'FOUNDATIONS OF STATISTICS',
+          title: 'Foundations Of Statistics',
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Mathematical%20Foundations/statistics/";
