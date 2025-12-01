@@ -574,6 +574,11 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Mathematical%20Foundations/Mathematics-for-computer-science/MFCS-UNIT-1/";
+            },},{id: "teaching-unit-2a-set-theory-and-relations",
+          title: 'Unit-2A Set Theory And Relations',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Mathematical%20Foundations/Mathematics-for-computer-science/MFCS-UNIT-2A/";
             },},{id: "teaching-foundations-of-statistics",
           title: 'Foundations Of Statistics',
           description: "",
