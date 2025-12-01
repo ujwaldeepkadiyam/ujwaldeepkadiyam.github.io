@@ -195,18 +195,49 @@
   <script async src="https://badge.dimensions.ai/badge.js"></script>
 {% endif %}
 
+
 {% if site.enable_math %}
-  <!-- MathJax -->
-  <script
-    defer
-    type="text/javascript"
-    id="MathJax-script"
-    src="{{ site.third_party_libraries.mathjax.url.js }}"
-    integrity="{{ site.third_party_libraries.mathjax.integrity.js }}"
-    crossorigin="anonymous"
-  ></script>
   {% unless page.pseudocode %}
-    <script src="{{ '/assets/js/mathjax-setup.js' | relative_url | bust_file_cache }}"></script>
+    <script>
+      window.MathJax = {
+        tex: {
+          tags: "ams",
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"]
+          ],
+          displayMath: [
+            ["$$", "$$"],
+            ["\\[", "\\]"]
+          ]
+        },
+        options: {
+          renderActions: {
+            addCss: [
+              200,
+              function (doc) {
+                const style = document.createElement("style");
+                style.innerHTML = ".mjx-container { color: inherit; }";
+                document.head.appendChild(style);
+              },
+              ""
+            ]
+          }
+        }
+      };
+    </script>
+
+    <!-- MathJax core script -->
+    <script
+      defer
+      type="text/javascript"
+      id="MathJax-script"
+      src="{{ site.third_party_libraries.mathjax.url.js }}"
+      integrity="{{ site.third_party_libraries.mathjax.integrity.js }}"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Polyfill (as before) -->
     <script
       defer
       src="{{ site.third_party_libraries.polyfill.url.js }}"
@@ -222,6 +253,8 @@
     ></script>
   {% endunless %}
 {% endif %}
+
+
 
 {% if site.enable_google_analytics %}
   <!-- Analytics -->

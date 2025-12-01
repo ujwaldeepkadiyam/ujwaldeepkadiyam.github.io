@@ -60,4 +60,6 @@ hide_title: true
       <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
       * [Lecture Notes For Module 1 ](/teaching/Mathematical Foundations/Mathematics-for-computer-science/MFCS-UNIT-1/)
 
-
+  * **Module 2A: Set Theory and Relations**
+      <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
+      * [Lecture Notes For Module 2A ](/teaching/Mathematical Foundations/Mathematics-for-computer-science/MFCS-UNIT-2A/)

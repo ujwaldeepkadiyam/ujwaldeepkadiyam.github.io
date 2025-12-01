@@ -3,8 +3,12 @@ window.MathJax = {
     tags: "ams",
     inlineMath: [
       ["$", "$"],
-      ["\\(", "\\)"],
+      ["\\(", "\\)"]
     ],
+    displayMath: [
+      ["$$", "$$"],
+      ["\\[", "\\]"]
+    ]
   },
   options: {
     renderActions: {
@@ -12,15 +16,11 @@ window.MathJax = {
         200,
         function (doc) {
           const style = document.createElement("style");
-          style.innerHTML = `
-          .mjx-container {
-            color: inherit;
-          }
-        `;
+          style.innerHTML = ".mjx-container { color: inherit; }";
           document.head.appendChild(style);
         },
-        "",
-      ],
-    },
-  },
+        ""
+      ]
+    }
+  }
 };
