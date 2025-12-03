@@ -8,34 +8,45 @@ grand_parent: Mathematical Foundations
 math: true
 wide: false
 ---
-.notes-content h1 {
+<style>
+/* SECTION → your "H2" */
+h1 {
   text-align: center;
   color: blue;
   font-weight: bold;
 }
-.notes-content h1 strong {
+h1 strong {
   color: #cc33cc;
 }
 
-.notes-content h2 {
+/* SUBSECTION → your "H3" */
+h2 {
   text-align: left;
   color: blue;
   font-weight: bold;
 }
-.notes-content h2 strong {
+h2 strong {
   color: #cc33cc;
 }
 
-.notes-content h3 {
+/* SUBSUBSECTION → your "H4" */
+h3 {
   text-align: left;
   color: blue;
   font-weight: bold;
 }
-.notes-content h3 strong {
+h3 strong {
   color: #cc33cc;
 }
 
-<div class="notes-content">
+body {
+  line-height: 1.5;
+  font-size: 17px;
+}
+</style>
+
+
+<!-- <div class="notes-content"> -->
 
 <h1 class="unnumbered" id="algebraic-structures-lecture-notes">Algebraic
 Structures – Lecture Notes</h1>
@@ -72,4 +83,4 @@ is a cyclic group.</p></li>
 4\)</span> is a homomorphism <span class="math inline">\(\mathbb{Z} \to
 \mathbb{Z}_4\)</span>.</p></li>
 </ol>
-</div>
+<!-- </div> -->
