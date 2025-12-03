@@ -1,7 +1,7 @@
 ---
 title: Unit-2B Algebraic Structures
 layout: page
-permalink: /teaching/Mathematical Foundations/Mathematics-for-computer-science/MFCS-UNIT-2b/
+permalink: /teaching/Mathematical Foundations/Mathematics-for-computer-science/MFCS-UNIT-2B/
 hide_title: true
 parent: Mathematics For Computer Science
 grand_parent: Mathematical Foundations
