@@ -35,6 +35,7 @@ wide: false
   color: #cc33cc;
 }
 
+<div class="notes-content">
 
 <h1 class="unnumbered" id="algebraic-structures-lecture-notes">Algebraic
 Structures – Lecture Notes</h1>
@@ -71,3 +72,4 @@ is a cyclic group.</p></li>
 4\)</span> is a homomorphism <span class="math inline">\(\mathbb{Z} \to
 \mathbb{Z}_4\)</span>.</p></li>
 </ol>
+</div>
