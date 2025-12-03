@@ -8,6 +8,32 @@ grand_parent: Mathematical Foundations
 math: true
 wide: false
 ---
+.notes-content h1 {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
+.notes-content h1 strong {
+  color: #cc33cc;
+}
+
+.notes-content h2 {
+  text-align: left;
+  color: blue;
+  font-weight: bold;
+}
+.notes-content h2 strong {
+  color: #cc33cc;
+}
+
+.notes-content h3 {
+  text-align: left;
+  color: blue;
+  font-weight: bold;
+}
+.notes-content h3 strong {
+  color: #cc33cc;
+}
 
 
 <h1 class="unnumbered" id="algebraic-structures-lecture-notes">Algebraic
