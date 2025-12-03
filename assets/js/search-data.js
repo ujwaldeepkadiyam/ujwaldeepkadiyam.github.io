@@ -579,6 +579,11 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Mathematical%20Foundations/Mathematics-for-computer-science/MFCS-UNIT-2A/";
+            },},{id: "teaching-unit-2b-algebraic-structures",
+          title: 'Unit-2B Algebraic Structures',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Mathematical%20Foundations/Mathematics-for-computer-science/MFCS-UNIT-2b/";
             },},{id: "teaching-foundations-of-statistics",
           title: 'Foundations Of Statistics',
           description: "",
