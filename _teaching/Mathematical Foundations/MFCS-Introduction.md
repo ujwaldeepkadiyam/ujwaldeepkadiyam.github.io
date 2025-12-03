@@ -63,3 +63,7 @@ hide_title: true
   * **Module 2A: Set Theory and Relations**
       <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
       * [Lecture Notes For Module 2A ](/teaching/Mathematical Foundations/Mathematics-for-computer-science/MFCS-UNIT-2A/)
+
+  * **Module 2B: Algebraic Structures**
+      <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
+      * [Lecture Notes For Module 2B ](/teaching/Mathematical Foundations/Mathematics-for-computer-science/MFCS-UNIT-2B/)

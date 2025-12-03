@@ -1,0 +1,18 @@
+/* ===== Markdown Table Borders (al-folio) ===== */
+
+.markdown-body table {
+  border-collapse: collapse !important;
+  width: auto !important;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  border: 1px solid #444 !important;   /* darker border */
+  padding: 6px 10px !important;
+}
+
+/* Optional: lighter header background */
+.markdown-body table th {
+  background-color: #f5f5f5 !important;
+  font-weight: 600 !important;
+}
