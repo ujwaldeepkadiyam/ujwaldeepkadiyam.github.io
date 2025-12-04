@@ -38,7 +38,6 @@ wide: false
 
 
 <div class="notes-content">
-
 <h1 id="mathematical-logic">Mathematical Logic</h1>
 <h2 id="introduction">Introduction</h2>
 <p>Mathematical logic provides a structured language for expressing
@@ -727,5 +726,196 @@ U\)</span>.</p>
 <strong>Solution.</strong> True.</p>
 <p><strong>Problem 5.</strong> For <span class="math inline">\(U=\{1,2,3\}\)</span>, evaluate <span class="math inline">\(\exists x\, (x&gt;3)\)</span>.<br />
 <strong>Solution.</strong> False.</p>
-
+<h1 id="inference-theory-of-the-predicate-calculus">Inference Theory of
+the Predicate Calculus</h1>
+<h2 id="introduction-2">Introduction</h2>
+<p>Predicate calculus extends propositional logic by allowing statements
+to include variables and quantifiers. While propositional logic deals
+with truth values of whole statements, predicate logic allows us to talk
+about *properties of objects* and *relationships among objects*. This
+greatly increases expressive power and enables reasoning in mathematics,
+databases, artificial intelligence, and automated theorem proving.</p>
+<p>Inference theory for the predicate calculus studies how valid
+conclusions can be derived from given premises using rules that respect
+quantifiers, variables, and logical form. The central idea is that
+correct reasoning proceeds by applying sound rules of derivation that
+preserve truth regardless of the domain of interpretation.</p>
+<h1 id="predicate-formulas-1">Predicate Formulas</h1>
+<h2 id="intuition-16">Intuition</h2>
+<p>A predicate represents a property or relation that objects may
+satisfy. When variables are substituted with actual objects from the
+universe of discourse, the predicate becomes a statement that is either
+true or false.</p>
+<p>A predicate formula is built using predicates, variables, logical
+connectives, and quantifiers. These formulas express general
+mathematical truths such as:</p>
+<p><span class="math display">\[\forall x (P(x) \to Q(x)), \qquad
+\exists y\, R(x,y)\]</span></p>
+<h2 id="formal-definition-8">Formal Definition</h2>
+<p>A <em>predicate formula</em> is defined recursively:</p>
+<ul>
+<li><p>If <span class="math inline">\(P\)</span> is an <span class="math inline">\(n\)</span>-place predicate symbol and <span class="math inline">\(x_1,\dots,x_n\)</span> are variables, then <span class="math inline">\(P(x_1,\dots,x_n)\)</span> is a formula.</p></li>
+<li><p>If <span class="math inline">\(A\)</span> is a formula, then
+<span class="math inline">\(\neg A\)</span> is a formula.</p></li>
+<li><p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are formulas, then <span class="math inline">\(A \land B\)</span>, <span class="math inline">\(A
+\lor B\)</span>, <span class="math inline">\(A \to B\)</span>, and <span class="math inline">\(A \leftrightarrow B\)</span> are
+formulas.</p></li>
+<li><p>If <span class="math inline">\(A\)</span> is a formula and <span class="math inline">\(x\)</span> is a variable, then <span class="math inline">\(\forall x A\)</span> and <span class="math inline">\(\exists x A\)</span> are formulas.</p></li>
+</ul>
+<h2 id="examples-13">Examples</h2>
+<p><strong>Example 1.</strong> <span class="math inline">\(P(x): x &gt;
+5\)</span> is a predicate; <span class="math inline">\(P(7)\)</span>
+becomes a statement which is true.</p>
+<p><strong>Example 2.</strong> <span class="math inline">\(R(x,y): x + y
+= 10\)</span> represents a binary relation on integers.</p>
+<p><strong>Example 3.</strong> <span class="math inline">\(\forall x
+\exists y (x &lt; y)\)</span> is a predicate formula that expresses that
+every number has a larger number.</p>
+<h2 id="practice-problems-16">Practice Problems</h2>
+<p><strong>Problem 1.</strong> Identify whether <span class="math inline">\(P(x) \lor \forall x Q(x)\)</span> is a
+formula.<br />
+<strong>Solution.</strong> Yes. Both <span class="math inline">\(P(x)\)</span> and <span class="math inline">\(\forall x Q(x)\)</span> are formulas, and their
+disjunction is valid.</p>
+<p><strong>Problem 2.</strong> Is <span class="math inline">\(P(x,)\)</span> a valid predicate formula?<br />
+<strong>Solution.</strong> No. Predicate arity requires proper argument
+structure.</p>
+<p><strong>Problem 3.</strong> Is <span class="math inline">\(\exists x
+(P(x) \to Q)\)</span> a formula?<br />
+<strong>Solution.</strong> No. <span class="math inline">\(Q\)</span>
+must be a predicate, not a propositional constant.</p>
+<p><strong>Problem 4.</strong> Determine if <span class="math inline">\((\forall x P(x)) \land Q(y)\)</span> is a
+formula.<br />
+<strong>Solution.</strong> Yes; both components are formulas joined by
+conjunction.</p>
+<p><strong>Problem 5.</strong> Is <span class="math inline">\(\forall
+(P(x))\)</span> a formula?<br />
+<strong>Solution.</strong> No. A quantifier must bind a variable.</p>
+<h1 id="free-and-bound-variables-1">Free and Bound Variables</h1>
+<h2 id="intuition-17">Intuition</h2>
+<p>A variable is <em>bound</em> if it is attached to a quantifier within
+the formula. Otherwise, it is <em>free</em>. The distinction matters
+because formulas with free variables do not have a truth value until the
+free variables are given specific values or are universally closed.</p>
+<h2 id="formal-definition-9">Formal Definition</h2>
+<ul>
+<li><p>In <span class="math inline">\(\forall x A\)</span>, all
+occurrences of <span class="math inline">\(x\)</span> in <span class="math inline">\(A\)</span> are bound.</p></li>
+<li><p>In <span class="math inline">\(\exists x A\)</span>, occurrences
+of <span class="math inline">\(x\)</span> in <span class="math inline">\(A\)</span> are bound.</p></li>
+<li><p>Any variable not bound by a quantifier is free.</p></li>
+</ul>
+<p>A <strong>sentence</strong> or <strong>closed formula</strong>
+contains no free variables.</p>
+<h2 id="examples-14">Examples</h2>
+<p><strong>Example 1.</strong> In <span class="math inline">\(\forall x
+(P(x,y))\)</span>, <span class="math inline">\(x\)</span> is bound,
+<span class="math inline">\(y\)</span> is free.</p>
+<p><strong>Example 2.</strong> In <span class="math inline">\(\exists y
+(R(x,y) \to S(y))\)</span>, <span class="math inline">\(y\)</span> is
+bound, <span class="math inline">\(x\)</span> is free.</p>
+<h2 id="practice-problems-17">Practice Problems</h2>
+<p><strong>Problem 1.</strong> Identify the free variables in <span class="math inline">\(\forall x (P(x,y) \lor Q(z))\)</span>.<br />
+<strong>Solution.</strong> <span class="math inline">\(y\)</span> and
+<span class="math inline">\(z\)</span> are free; <span class="math inline">\(x\)</span> is bound.</p>
+<p><strong>Problem 2.</strong> Does <span class="math inline">\(\exists
+y (P(y) \land Q(x))\)</span> contain free variables?<br />
+<strong>Solution.</strong> Yes. <span class="math inline">\(x\)</span>
+is free.</p>
+<p><strong>Problem 3.</strong> Is <span class="math inline">\(\forall x
+P(x)\)</span> a sentence?<br />
+<strong>Solution.</strong> Yes; no free variables.</p>
+<p><strong>Problem 4.</strong> Free variables in <span class="math inline">\(P(x) \lor \exists z R(z)\)</span>?<br />
+<strong>Solution.</strong> <span class="math inline">\(x\)</span> is
+free; <span class="math inline">\(z\)</span> is bound.</p>
+<p><strong>Problem 5.</strong> Are there bound variables in <span class="math inline">\(P(x,y)\)</span>?<br />
+<strong>Solution.</strong> No. Both variables are free.</p>
+<h1 id="universe-of-discourse-1">Universe of Discourse</h1>
+<h2 id="intuition-18">Intuition</h2>
+<p>The <em>universe of discourse</em> is the set of objects over which
+variables range. Interpretation of predicates depends entirely on this
+universe.</p>
+<p>For example, the formula <span class="math inline">\(\forall x (x+1
+&gt; x)\)</span> is true in integers but false in some modular
+arithmetic systems.</p>
+<h2 id="formal-definition-10">Formal Definition</h2>
+<p>Given a universe <span class="math inline">\(U\)</span>, each
+predicate symbol <span class="math inline">\(P\)</span> is assigned a
+relation on <span class="math inline">\(U\)</span>. A formula is
+evaluated by interpreting:</p>
+<ul>
+<li><p>Variables as elements of <span class="math inline">\(U\)</span>,</p></li>
+<li><p>Predicates as relations on <span class="math inline">\(U\)</span>,</p></li>
+<li><p>Connectives as logical operations,</p></li>
+<li><p>Quantifiers as ranging over <span class="math inline">\(U\)</span>.</p></li>
+</ul>
+<h2 id="examples-15">Examples</h2>
+<p><strong>Example 1.</strong> If <span class="math inline">\(U =
+\mathbb{Z}\)</span> and <span class="math inline">\(P(x): x &gt;
+0\)</span>, then <span class="math inline">\(P(-3)\)</span> is
+false.</p>
+<p><strong>Example 2.</strong> If <span class="math inline">\(U =
+\{1,2,3\}\)</span>, the formula <span class="math inline">\(\exists x (x
+&gt; 3)\)</span> is false.</p>
+<h2 id="practice-problems-18">Practice Problems</h2>
+<p><strong>Problem 1.</strong> Let <span class="math inline">\(U =
+\mathbb{R}\)</span>. Is <span class="math inline">\(\forall x (x^2 \ge
+0)\)</span> true?<br />
+<strong>Solution.</strong> Yes. Squares are non-negative in reals.</p>
+<p><strong>Problem 2.</strong> Let <span class="math inline">\(U =
+\{1,2,3\}\)</span>. Evaluate <span class="math inline">\(\exists x (x^2
+= 4)\)</span>.<br />
+<strong>Solution.</strong> True for <span class="math inline">\(x=2\)</span>.</p>
+<p><strong>Problem 3.</strong> Let <span class="math inline">\(U =
+\mathbb{N}\)</span>. Is <span class="math inline">\(\exists x (x &lt;
+0)\)</span> true?<br />
+<strong>Solution.</strong> False. Naturals are non-negative.</p>
+<p><strong>Problem 4.</strong> Let <span class="math inline">\(U =
+\{0,1\}\)</span>. Is <span class="math inline">\(\forall x \exists y
+(x=y)\)</span> true?<br />
+<strong>Solution.</strong> Yes. Each element equals itself.</p>
+<p><strong>Problem 5.</strong> Universe <span class="math inline">\(U=\mathbb{Z}\)</span>. Is <span class="math inline">\(\exists x (2x = 3)\)</span> true?<br />
+<strong>Solution.</strong> False. No integer satisfies <span class="math inline">\(2x=3\)</span>.</p>
+<h1 id="inference-theory-of-predicate-logic">Inference Theory of
+Predicate Logic</h1>
+<h2 id="intuition-19">Intuition</h2>
+<p>Just as propositional logic has rules such as Modus Ponens and Modus
+Tollens, predicate logic includes analogous rules but must account for
+quantifiers. Inference rules must preserve validity regardless of domain
+or interpretation.</p>
+<p>These rules allow us to derive conclusions like:</p>
+<p><span class="math display">\[\forall x (P(x) \to Q(x)),\quad P(a)
+\quad \vdash \quad Q(a)\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\forall x P(x) \quad \vdash \quad
+P(t)\]</span></p>
+<h2 id="core-rules-of-inference">Core Rules of Inference</h2>
+<ul>
+<li><p><strong>Universal Instantiation (UI)</strong> From <span class="math inline">\(\forall x\, P(x)\)</span> infer <span class="math inline">\(P(t)\)</span>.</p></li>
+<li><p><strong>Universal Generalization (UG)</strong> From <span class="math inline">\(P(x)\)</span> (with <span class="math inline">\(x\)</span> not free in premises) infer <span class="math inline">\(\forall x P(x)\)</span>.</p></li>
+<li><p><strong>Existential Instantiation (EI)</strong> From <span class="math inline">\(\exists x P(x)\)</span> introduce a new constant
+<span class="math inline">\(c\)</span> and infer <span class="math inline">\(P(c)\)</span>.</p></li>
+<li><p><strong>Existential Generalization (EG)</strong> From <span class="math inline">\(P(t)\)</span> infer <span class="math inline">\(\exists x P(x)\)</span>.</p></li>
+<li><p><strong>Quantifier Negation</strong> <span class="math display">\[\neg \forall x P(x) \equiv \exists x \neg P(x),
+\qquad
+        \neg \exists x P(x) \equiv \forall x \neg P(x)\]</span></p></li>
+</ul>
+<h2 id="examples-16">Examples</h2>
+<p><strong>Example 1.</strong> Premises: <span class="math inline">\(\forall x (P(x) \to Q(x))\)</span>, <span class="math inline">\(P(a)\)</span>. Inference: <span class="math inline">\(Q(a)\)</span> by UI and Modus Ponens.</p>
+<p><strong>Example 2.</strong> Premise: <span class="math inline">\(\exists x R(x)\)</span>. Inference: Introduce new
+constant <span class="math inline">\(c\)</span>; conclude <span class="math inline">\(R(c)\)</span> by EI.</p>
+<h2 id="diagram-placeholder">Diagram Placeholder</h2>
+<h2 id="practice-problems-19">Practice Problems</h2>
+<p><strong>Problem 1.</strong> From <span class="math inline">\(\forall
+x (P(x) \to Q(x))\)</span> and <span class="math inline">\(P(b)\)</span>
+derive <span class="math inline">\(Q(b)\)</span>.<br />
+<strong>Solution.</strong> Apply universal instantiation to get <span class="math inline">\(P(b) \to Q(b)\)</span>, then Modus Ponens.</p>
+<p><strong>Problem 2.</strong> From <span class="math inline">\(\exists
+x P(x)\)</span> infer a formula.<br />
+<strong>Solution.</strong> Introduce new constant <span class="math inline">\(c\)</span> and conclude <span class="math inline">\(P(c)\)</span>.</p>
+<p><strong>Problem 3.</strong> Show that <span class="math inline">\(\neg \forall x P(x)\)</span> implies <span class="math inline">\(\exists x \neg P(x)\)</span>.<br />
+<strong>Solution.</strong> Apply quantifier negation equivalence.</p>
+<p><strong>Problem 4.</strong> From <span class="math inline">\(P(t)\)</span> derive <span class="math inline">\(\exists x P(x)\)</span>.<br />
+<strong>Solution.</strong> Use existential generalization.</p>
+<p><strong>Problem 5.</strong> From <span class="math inline">\(P(x)\)</span> (with <span class="math inline">\(x\)</span> arbitrary) prove <span class="math inline">\(\forall x P(x)\)</span>.<br />
+<strong>Solution.</strong> Use universal generalization, ensuring <span class="math inline">\(x\)</span> is not free in any premise.</p>
 </div>
