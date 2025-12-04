@@ -8,9 +8,9 @@ grand_parent: Mathematical Foundations
 math: true
 wide: false
 ---
-
-
-<style>
+<!-- 
+```
+<style> 
 /* Apply to all headings inside the LaTeX content */
 .notes-content h1,
 .notes-content h2,
@@ -29,6 +29,85 @@ wide: false
 }
 
 /* Remove strong override since heading already has the color */
+.notes-content h1 strong,
+.notes-content h2 strong,
+.notes-content h3 strong {
+  color: inherit !important;
+}
+</style> */
+``` -->
+<!-- 
+```
+<style>
+/* Heading styles */
+.notes-content h1,
+.notes-content h2,
+.notes-content h3,
+.notes-content h4,
+.notes-content h5,
+.notes-content h6 {
+  color: #cc33cc !important;
+  font-weight: normal !important;
+  text-align: left !important;
+}
+
+/* Center H1 only */
+.notes-content h1 {
+  text-align: center !important;
+}
+
+/* Justify all body text */
+.notes-content p,
+.notes-content li {
+  text-align: justify !important;
+}
+
+/* Strong inside headings – inherit color */
+.notes-content h1 strong,
+.notes-content h2 strong,
+.notes-content h3 strong {
+  color: inherit !important;
+}
+</style>
+``` -->
+
+<style>
+/* Heading styles */
+.notes-content h1,
+.notes-content h2,
+.notes-content h3,
+.notes-content h4,
+.notes-content h5,
+.notes-content h6 {
+  color: #cc33cc !important;
+  font-weight: normal !important;
+  text-align: left !important;
+}
+
+/* Center H1 only */
+.notes-content h1 {
+  text-align: center !important;
+}
+
+/* Justify all body text */
+.notes-content p,
+.notes-content li {
+  text-align: justify !important;
+
+  /* Hyphenation settings */
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+
+  /* Make hyphenation actually work */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  /* Optional: nicer spacing */
+  line-height: 1.45;
+}
+
+/* Strong inside headings – inherit color */
 .notes-content h1 strong,
 .notes-content h2 strong,
 .notes-content h3 strong {
