@@ -9,7 +9,6 @@ math: true
 wide: false
 ---
 
-
 <h2
 class="page-header" style="text-align: center ; color: blue;"><strong style="color:#cc33cc;">Support Vector Machines</strong></h2>
 
