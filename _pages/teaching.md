@@ -72,7 +72,10 @@ nav_order: 6
   Topics include linear algebra, calculus, probability, and discrete mathematics to build a strong foundational skill set.</p>
 
 - <h5 style="text-align: justify;">  <a href="/teaching/Foundations-of-Computing/" style="color: #cc33cc; text-decoration: none; font-weight: bold;">Foundations of Computing</a></h5>
-  <p style="text-align: justify;">This specialization builds the core theoretical foundations of Computer Science, covering Data Structures, Algorithm Design, and Computational Complexity. It emphasizes the mathematical and algorithmic principles essential for Artificial Intelligence, combining rigorous theory with strong practical skills. Advanced modules explore the computational basis of Machine Learning and Cloud Computing, enabling scalable, production-grade system design. The goal is to connect theoretical efficiency with real-world engineering, helping learners understand the limits of computation and the behaviors of modern algorithms.</p>
+  <p style="text-align: justify;">
+  <!-- This specialization builds the core theoretical foundations of Computer Science, covering Data Structures, Algorithm Design, and Computational Complexity. It emphasizes the mathematical and algorithmic principles essential for Artificial Intelligence, combining rigorous theory with strong practical skills. Advanced modules explore the computational basis of Machine Learning and Cloud Computing, enabling scalable, production-grade system design. The goal is to connect theoretical efficiency with real-world engineering, helping learners understand the limits of computation and the behaviors of modern algorithms. -->  
+  This specialization builds strong theoretical foundations in Computer Science, focusing on data structures, algorithms, and computational complexity. It links mathematical rigor with practical skills to support Cryptography, Artificial Intelligence, Machine Learning, and Cloud Computing, enabling learners to design efficient, scalable, real-world systems while understanding the limits and behavior of modern algorithms.
+  </p>
 
   <!-- This specialization focuses on the theoretical and conceptual foundations of computer science. 
   It covers core areas such as Data Structures, Design and Analysis of Algorithms, and Computational 
@@ -101,10 +104,10 @@ nav_order: 6
 - <h5><a href="/teaching/Data Science/" style="color: #cc33cc; text-decoration: none;font-weight: bold;">Data Science</a></h5>
   <p style="text-align: justify;">Dive into the world of data analytics, machine learning, and statistical modeling. This specialization provides practical skills for processing, analyzing, and visualizing data, with hands-on projects to strengthen learning.</p>
 
-<!-- - <h5><a href="/teaching/Communication Engineering/" style="color: #cc33cc; text-decoration: none;">Communication Engineering</a></h5>
+- <h5><a href="/teaching/Communication Engineering/" style="color: #cc33cc; text-decoration: none;font-weight: bold;">Communication Engineering</a></h5>
 
   Learn the principles of modern communication systems including analog and digital communication, signal processing, and networking. 
-  This specialization prepares you for careers in telecom, networking, and IoT technologies. -->
+  This specialization prepares you for careers in telecom, networking, and IoT technologies.
 
 
 <!-- - <h5><a href="/teaching/Python/" style="color: #cc33cc; text-decoration: none;">Python Programming</a></h5>

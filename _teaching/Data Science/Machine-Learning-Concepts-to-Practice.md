@@ -1,19 +1,19 @@
 ---
 layout: page # Use the standard page layout
-title: Python-for-Data-Wrangling # The title of the course. replace space with -
+title: Machine-Learning-Concepts-to-Practice # The title of the course. replace space with -
 hide_title: true
-permalink: /teaching/Data Science/Python-for-Data-Wrangling/
+permalink: /teaching/Data Science/Machine-Learning-Concepts-to-Practice/
 course_number: Data Science
 # hide_course_number: true
 term: Summer 2024
 category: Data Science # Add this line
 parent: Data Science
 # grand_parent: Data Science
-order: 1
+order: 2
 # nav: true
 ---
 
-<h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Python for Data Wrangling</strong></h2>
+<h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Machine Learning: Concepts to Practice</strong></h2>
 
 <!-- #### Course Introduction  -->
 <h4 style="color: #cc33cc;">Course Introduction</h4>
@@ -42,11 +42,11 @@ order: 1
 
 <!-- ### Python for Data Wrangling Course Modules -->
 
-  * **Module 1: Basic Navigation and Programming**
-      * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html)
-      * [Module 1 at a Glance](/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_1/)
+  * **Module 0: A Beginner's Guide for an end to end Machine learning project**
+      <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
+      * [Module 1 at a Glance](/teaching/Data%20Science/MLDATA/ML-Project/)
 
-
+<!-- 
   * **Module 2: Data Querying and Manipulation**
       * [Slides for Module 2](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-2/lec-2.html)
       * [Module 2 at a Glance](/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_2/)
@@ -73,10 +73,10 @@ order: 1
 
 
 <h4 style="color: #cc33cc;">Practice Assignments</h4>
-<!-- ### Python for Data Wrangling Course Modules -->
+<!-- ### Python for Data Wrangling Course Modules
 
   * **Module 1: Basic Navigation and Programming**
-      <!-- * [Practice Notebook for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-X/lec-X.html) -->
+      <!-- * [Practice Notebook for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-X/lec-X.html) 
       * [![Practice Notebook for Module 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujwaldeepkadiyam/ujwaldeepkadiyam.github.io/blob/main/_teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_1_Questions.ipynb)
       * [Solution for Practice Notebook for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_1.html)
 
@@ -102,7 +102,7 @@ order: 1
 
   * **Module 6: Programming and Automation**
       * [![Practice Notebook for Module 6](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujwaldeepkadiyam/ujwaldeepkadiyam.github.io/blob/main/_teaching/Data%20Science/Python-for-Data-Wrangling/Slides/Assignment-Session_6_Questions.ipynb)
-      * [Solution for Practice Notebook for Module 6](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_6.html)
+      * [Solution for Practice Notebook for Module 6](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Assignment-Session_6.html) -->
 
 
  

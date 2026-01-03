@@ -1,0 +1,48 @@
+---
+layout: page # Use the standard page layout
+title: Analog Communications # The title of the course. replace space with -
+hide_title: true
+# permalink: /teaching/data-science-foundations/
+course_number: Communication Engineering
+# hide_course_number: true
+term: Summer 2024
+category: Communication Engineering # Add this line
+parent: Communication Engineering
+# grand_parent: Data Science
+# order: 2
+# nav: true
+---
+
+<h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Analog Communications</strong></h2>
+
+<!-- #### Course Introduction  -->
+<h4 style="color: #cc33cc;">Course Introduction</h4>
+
+<p style="text-align: justify;">Welcome! This course introduces the fundamental concepts and building blocks of analog communication systems, focusing on how information signals are transmitted efficiently and reliably over communication channels. It explains why modulation is required, how signals are represented in time and frequency domains, and how real-world communication systems overcome limitations such as bandwidth constraints and noise.</p>
+
+<p style="text-align: justify;">By the end of the course, students gain a clear understanding of classical analog modulation techniques, basic transmitter and receiver operation, and the impact of noise on signal quality. The course lays a strong foundation for advanced studies in digital communication, wireless systems, and modern communication technologies.</p>
+
+
+
+<!-- <p style="text-align: justify;"> Welcome to Fundamentals of Machine Learning! This comprehensive course is structured to provide a deep, foundational understanding of the core concepts, algorithms, and practical considerations that define the field of machine learning. Machine learning is the science of programming computers to learn from data, and it is the engine driving modern artificial intelligence, data analytics, and predictive modeling. </p>
+
+<p style="text-align: justify;"> Throughout the program, we will systematically explore key paradigms, beginning with well-posed learning problems and the design of effective learning systems. We'll dive into fundamental predictive models, including Linear Regression for numeric prediction and Logistic Regression for classification, thoroughly examining the critical bias/variance tradeoff. We will then advance to powerful techniques like Support Vector Machines (SVMs) and k-Nearest Neighbor (kNN) for robust classification. </p>
+
+<p style="text-align: justify;"> A significant portion of the course is dedicated to model validation—learning how to rigorously evaluate hypothesis accuracy and compare different learning algorithms using sampling theory and confidence intervals. Finally, we'll explore the complex architecture of Artificial Neural Networks (ANNs), mastering the backpropagation algorithm, before concluding with methods for data simplification, such as Principal Component Analysis (PCA), and the evolutionary optimization framework of Genetic Algorithms. Get ready to build a strong theoretical and practical foundation in the world of autonomous learning systems! </p> -->
+
+<!-- ### Materials -->
+<h4 style="color: #cc33cc;">Course Materials</h4>
+
+<!-- ### Python for Data Wrangling Course Modules -->
+
+  * **Module 1: Amplitue Modulation**
+      <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
+      * [Lecture Notes For Module 1 ](/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/)
+
+  * **Module 2: Margin-Based (SVM) and Instance-Based (KNN) Learning**
+      <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
+      * [Lecture Notes For Module 2 ](/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-2/)
+
+  * **Module 3: Evaluation Hypotheses**
+      <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
+      * [Lecture Notes For Module 3 ](/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-3/)
