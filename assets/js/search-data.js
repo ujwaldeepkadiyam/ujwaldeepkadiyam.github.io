@@ -474,6 +474,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-analog-communications",
+          title: 'Analog Communications',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Communiation%20Engineering/Analog-Communications/";
+            },},{id: "teaching-communication-engineering",
+          title: 'Communication Engineering',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Communication%20Engineering/";
             },},{id: "teaching-data-science",
           title: 'Data Science',
           description: "",
@@ -489,6 +499,16 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Data%20Science/Data-Science-Projects/";
+            },},{id: "teaching-a-beginner-39-s-guide-for-an-end-to-end-machine-learning-project",
+          title: 'A Beginner&amp;#39;s Guide for an end to end Machine learning project',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/MLDATA/ML-Project/";
+            },},{id: "teaching-machine-learning-concepts-to-practice",
+          title: 'Machine-Learning-Concepts-to-Practice',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Data%20Science/Machine-Learning-Concepts-to-Practice/";
             },},{id: "teaching-python-for-data-wrangling",
           title: 'Python-for-Data-Wrangling',
           description: "",
