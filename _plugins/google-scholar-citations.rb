@@ -1,10 +1,14 @@
-require "active_support/all"
-require 'nokogiri'
-require 'open-uri'
+require "active_support"
+require "active_support/core_ext"     # important
+require "active_support/number_helper"
+require "active_support/time"
+require "nokogiri"
+require "open-uri"
 
 module Helpers
   extend ActiveSupport::NumberHelper
 end
+
 
 module Jekyll
   class GoogleScholarCitationsTag < Liquid::Tag

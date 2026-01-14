@@ -35,9 +35,9 @@ parent: Communication Engineering
 
 <!-- ### Python for Data Wrangling Course Modules -->
 
-  * **Module 1: Amplitue Modulation**
+  * **Module 1: Amplitue Modulation - 1**
       <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
-      * [Lecture Notes For Module 1 ](/teaching/Foundations-of-Computing/Foundations-of-Machine-Learning/ML-Unit-1/)
+      * [Lecture Notes For Module 1 ](/teaching/Communiation Engineering/Analog_Communications/Amplitude_modulation-1/)
 
   * **Module 2: Margin-Based (SVM) and Instance-Based (KNN) Learning**
       <!-- * [Slides for Module 1](/teaching/Data Science/Python-for-Data-Wrangling/Slides/Lecture-1/lec-1.html) -->
