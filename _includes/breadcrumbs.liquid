@@ -11,6 +11,7 @@ Breadcrumbs Include for GitHub Pages
 Step 1: Find parent from front matter or collection mapping
 {%- endcomment -%}
 {% assign parent_title = page.parent %}
+{% assign breadcrumb_collection = page.collection %}
 {% if parent_title == nil and page.collection %}
   {% assign parent_title = site.breadcrumb_parents[page.collection] %}
 {% endif %}
@@ -21,6 +22,9 @@ Step 2: Walk up the parent chain (max 5 levels)
 {% for i in (1..5) %}
   {% if parent_title %}
     {% assign parent_page = site.pages | where: "title", parent_title | first %}
+    {% if parent_page == nil and breadcrumb_collection == "teaching" %}
+      {% assign parent_page = site.teaching | where: "title", parent_title | first %}
+    {% endif %}
     {% if parent_page %}
       {% assign crumbs = crumbs | push: parent_page %}
       {% assign parent_title = parent_page.parent %}

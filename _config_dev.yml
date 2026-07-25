@@ -1,0 +1,5 @@
+# Local development overrides.
+destination: .jekyll-cache/dev-site
+
+imagemagick:
+  enabled: false
