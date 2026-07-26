@@ -2,6 +2,7 @@
 title: Unit-1 Mathematical Logic and Predicate Calculus
 layout: page
 permalink: /teaching/Mathematical Foundations/Mathematics-for-computer-science/MFCS-UNIT-1/
+published: false
 hide_title: true
 parent: Mathematics For Computer Science
 grand_parent: Mathematical Foundations
