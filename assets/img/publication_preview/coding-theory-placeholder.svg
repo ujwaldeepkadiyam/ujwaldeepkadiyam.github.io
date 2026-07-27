@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Abstract coding-theory graph placeholder">
+  <rect width="400" height="400" fill="#eef1f6"/>
+
+  <!-- bipartite Tanner-graph style diagram: variable nodes (circles) <-> check nodes (squares) -->
+  <g stroke="#9fb2c8" stroke-width="2.5">
+    <line x1="80"  y1="110" x2="150" y2="260"/>
+    <line x1="80"  y1="110" x2="250" y2="260"/>
+    <line x1="160" y1="110" x2="150" y2="260"/>
+    <line x1="160" y1="110" x2="320" y2="260"/>
+    <line x1="240" y1="110" x2="250" y2="260"/>
+    <line x1="240" y1="110" x2="320" y2="260"/>
+    <line x1="320" y1="110" x2="150" y2="260"/>
+    <line x1="320" y1="110" x2="250" y2="260"/>
+    <line x1="320" y1="110" x2="320" y2="260"/>
+  </g>
+
+  <!-- variable nodes -->
+  <g fill="#3b6ea5">
+    <circle cx="80"  cy="110" r="22"/>
+    <circle cx="160" cy="110" r="22"/>
+    <circle cx="240" cy="110" r="22"/>
+    <circle cx="320" cy="110" r="22"/>
+  </g>
+
+  <!-- check nodes -->
+  <g fill="#2c3e50">
+    <rect x="128" y="238" width="44" height="44" rx="6"/>
+    <rect x="228" y="238" width="44" height="44" rx="6"/>
+    <rect x="298" y="238" width="44" height="44" rx="6"/>
+  </g>
+</svg>

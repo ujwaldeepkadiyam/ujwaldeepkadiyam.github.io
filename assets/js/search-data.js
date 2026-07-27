@@ -445,6 +445,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-patient-vital-monitoring-gcp",
+          title: 'Patient Vital Monitoring (GCP)',
+          description: "GCP-END-TO-END-PROJECT",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/patient-vital-monitoring-gcp/";
             },},{id: "teaching-analog-communications",
           title: 'Analog Communications',
           description: "",
@@ -585,7 +590,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%75%6A%77%61%6C%64%65%65%70@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%75%6A%77%61%6C%64%65%65%70%6B%61%64%69%79%61%6D@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-linkedin',
