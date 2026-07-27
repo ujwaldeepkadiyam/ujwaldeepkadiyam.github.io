@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ujwaldeepkadiyam
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ujwaldeepkadiyam/Data_Science_and_Machine_Learning
+  - ujwaldeepkadiyam/Dealing_With_Data
+  - ujwaldeepkadiyam/Python_With_Applicatons
+  - ujwaldeepkadiyam/Probability-Statistics-and-Random-Processes
