@@ -538,10 +538,56 @@ footer.sticky-bottom {
 
 // Repositories
 
+.repositories {
+  gap: 1rem;
+}
+
+// .repo-card (github user profile card / repo pin card) forms a responsive
+// 2-col/1-col grid. Plain .repo (e.g. the wide trophies banner) is untouched.
+.repo-card {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
-  .repo {
-    max-width: 50%;
+  .repo-card {
+    // explicit width (not just max-width) so each card actually claims
+    // half the row instead of shrinking to its content's width
+    width: calc(50% - 0.5rem);
+    max-width: calc(50% - 0.5rem);
   }
+}
+
+.repo-preview {
+  position: relative;
+}
+
+.repo-fallback {
+  display: none;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 0.5rem;
+  width: 100%;
+  min-height: 120px;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  padding: 1rem;
+
+  i {
+    font-size: 1.5rem;
+    color: var(--global-theme-color);
+  }
+
+  span {
+    font-size: 0.9rem;
+    word-break: break-word;
+  }
+}
+
+.repo-img-error .repo-fallback {
+  display: flex;
 }
 
 // Blog
