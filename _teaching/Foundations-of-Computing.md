@@ -2,7 +2,7 @@
 layout: page
 title: Foundations of Computing
 permalink: /teaching/Foundations-of-Computing/
-parent: Teaching
+parent: Learning
 nav: False
 hide_title: true
 description: ""

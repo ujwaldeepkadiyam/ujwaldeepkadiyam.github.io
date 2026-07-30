@@ -2,7 +2,7 @@
 layout: page
 title: Mathematical Foundations
 permalink: /teaching/Mathematical Foundations/
-parent: Teaching
+parent: Learning
 nav: False
 hide_title: true
 description: ""

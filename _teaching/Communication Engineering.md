@@ -2,7 +2,7 @@
 layout: page
 title: Communication Engineering
 permalink: /teaching/Communication Engineering/
-parent: Teaching
+parent: Learning
 hide_title: true
 description: ""
 nav: false

@@ -2,7 +2,7 @@
 layout: page
 title: Data Science
 permalink: /teaching/Data Science/
-parent: Teaching
+parent: Learning
 hide_title: true
 description: ""
 nav: false
