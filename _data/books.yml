@@ -723,3 +723,102 @@
     Brooks examines software project management, complexity, scheduling, architecture, communication, and the human side of development. The essays remain influential for large-scale engineering and project leadership.
   external_url: "https://openlibrary.org/isbn/9780201835953"
   status: "Recommended"
+
+- title: "Pattern Recognition and Machine Learning"
+  author: "Christopher M. Bishop"
+  category: "Data Science"
+  subcategory: "Machine Learning"
+  edition: "1st edition, 2006"
+  isbn: "9780387310732"
+  summary: >-
+    Bishop presents machine learning through probability, Bayesian methods, graphical models, kernels, neural networks, and approximate inference. Its mathematical depth makes it a standard graduate text for machine learning, pattern recognition, signal processing, and data science.
+  external_url: "https://link.springer.com/book/9780387310732"
+  status: "Recommended"
+
+- title: "Probabilistic Machine Learning: An Introduction"
+  author: "Kevin P. Murphy"
+  category: "Data Science"
+  subcategory: "Machine Learning"
+  edition: "1st edition, 2022"
+  isbn: "9780262046824"
+  summary: >-
+    Murphy develops modern machine learning using probability, decision theory, linear algebra, optimization, and computation. It covers supervised and unsupervised learning, neural networks, graphical models, Bayesian inference, and reinforcement learning.
+  external_url: "https://mitpress.mit.edu/9780262046824/probabilistic-machine-learning/"
+  status: "Recommended"
+
+- title: "Machine Learning for Engineers"
+  author: "Osvaldo Simeone"
+  category: "Data Science"
+  subcategory: "Machine Learning"
+  edition: "1st edition, 2022"
+  isbn: "9781316512821"
+  summary: >-
+    Simeone gives a self-contained introduction grounded in probability, information theory, inference, and optimization. Its engineering orientation is especially relevant to communication systems, signal processing, coding, distributed learning, and data-driven design.
+  external_url: "https://www.cambridge.org/highereducation/books/machine-learning-for-engineers/EB4EF5EEA8F39857280DB4E7F0C97A71"
+  status: "Recommended"
+
+- title: "Deep Learning"
+  author: "Ian Goodfellow, Yoshua Bengio, and Aaron Courville"
+  category: "Data Science"
+  subcategory: "Deep Learning"
+  edition: "1st edition, 2016"
+  isbn: "9780262035613"
+  summary: >-
+    This seminal text develops the mathematical foundations, optimization, architectures, regularization, and research directions underlying deep learning. It remains essential for representation learning, generative modeling, computer vision, natural-language processing, and modern AI.
+  external_url: "https://mitpress.mit.edu/9780262035613/deep-learning/"
+  status: "Recommended"
+
+- title: "Deep Learning: Foundations and Concepts"
+  author: "Christopher M. Bishop and Hugh Bishop"
+  category: "Data Science"
+  subcategory: "Deep Learning"
+  edition: "1st edition, 2024"
+  isbn: "9783031454677"
+  summary: >-
+    Bishop and Bishop explain contemporary deep learning through probability, neural networks, gradient optimization, transformers, graph neural networks, latent-variable models, and generative methods. The text combines conceptual clarity with mathematical substance.
+  external_url: "https://link.springer.com/book/10.1007/978-3-031-45468-4"
+  status: "Recommended"
+
+- title: "Dive into Deep Learning"
+  author: "Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola"
+  category: "Data Science"
+  subcategory: "Deep Learning"
+  edition: "1st edition, 2024"
+  isbn: "9781009389433"
+  summary: >-
+    This modern textbook combines mathematical explanations with executable implementations of neural networks, convolutional models, recurrence, attention, transformers, and optimization. Its notebook-based approach connects theory, experimentation, and practical model development.
+  external_url: "https://www.cambridge.org/highereducation/books/dive-into-deep-learning/20B8A9AA91F7A8D0EAE9A635F31C33A3"
+  status: "Recommended"
+
+- title: "AI Agents in Action"
+  author: "Micheal Lanham"
+  category: "Data Science"
+  subcategory: "Agentic AI"
+  edition: "2nd edition, June 2026"
+  isbn: "9781633434530"
+  summary: >-
+    Lanham provides a practical treatment of LLM agents, tools, memory, planning, multi-agent coordination, Model Context Protocol, evaluation, and deployment. It is useful for practitioners engineering contemporary autonomous workflows.
+  external_url: "https://www.manning.com/books/ai-agents-in-action-second-edition"
+  status: "Recommended"
+
+- title: "Building Applications with AI Agents"
+  author: "Michael Albada"
+  category: "Data Science"
+  subcategory: "Agentic AI"
+  edition: "1st edition, September 2025"
+  isbn: "9781098176495"
+  summary: >-
+    Albada examines single-agent and multi-agent applications built around foundation models. The book covers tools, memory, orchestration, interfaces, evaluation, scalability, reliability, security, and deployment for applied study and research.
+  external_url: "https://www.oreilly.com/library/view/building-applications-with/9781098176495/"
+  status: "Recommended"
+
+- title: "An Introduction to MultiAgent Systems"
+  author: "Michael Wooldridge"
+  category: "Data Science"
+  subcategory: "Agentic AI"
+  edition: "2nd edition, 2009"
+  isbn: "9780470519462"
+  summary: >-
+    Wooldridge provides theoretical foundations for intelligent agents and multi-agent systems, including reasoning, communication, cooperation, negotiation, coordination, and social choice. It remains a seminal academic reference beneath modern LLM-agent systems.
+  external_url: "https://www.wiley.com/en-ae/An%2BIntroduction%2Bto%2BMultiAgent%2BSystems%2C%2B2nd%2BEdition-p-9780470519462"
+  status: "Recommended"
