@@ -2,6 +2,7 @@
 layout: book-category
 title: Foundations of Computing
 permalink: /books/foundations-of-computing/
+parent: Bookshelf
 hide_title: true
 book_category: Foundations of Computing
 intro: Core computing concepts with an emphasis on programming, algorithms, systems, and theoretical computer science.

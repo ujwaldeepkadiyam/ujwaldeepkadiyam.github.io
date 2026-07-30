@@ -2,6 +2,7 @@
 layout: book-category
 title: Communication Engineering
 permalink: /books/communication-engineering/
+parent: Bookshelf
 hide_title: true
 book_category: Communication Engineering
 intro: Books on signals, communication systems, wireless technologies, and signal-processing methods.

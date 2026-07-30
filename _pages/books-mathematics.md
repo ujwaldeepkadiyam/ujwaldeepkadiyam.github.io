@@ -2,6 +2,7 @@
 layout: book-category
 title: Mathematics
 permalink: /books/mathematics/
+parent: Bookshelf
 hide_title: true
 book_category: Mathematics
 intro: Mathematical foundations for communication engineering, coding theory, theoretical computer science, and data science.
