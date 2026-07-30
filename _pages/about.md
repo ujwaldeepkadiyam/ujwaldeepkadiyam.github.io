@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: / #The permalink: / setting tells Jekyll to build this specific page and place it at the root of your website, making it your home page.
 
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.

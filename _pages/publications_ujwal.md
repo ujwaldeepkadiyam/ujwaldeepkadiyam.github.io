@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications_ujwal/
 description: ""
 nav: true
-nav_order: 6.5
+nav_order: 6
 math: true
 hide_title: true
 ---

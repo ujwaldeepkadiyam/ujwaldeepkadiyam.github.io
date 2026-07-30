@@ -1,11 +1,11 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: Learning
 hide_title: true
 description: ""
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
 <h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #cc33cc;">Courses</strong></h2>
