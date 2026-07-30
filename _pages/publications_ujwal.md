@@ -6,10 +6,10 @@ description: ""
 nav: true
 nav_order: 6.5
 math: true
-show_title: false
+hide_title: true
 ---
 
-<h2 class="page-header" style="text-align: center; color: blue;"><strong style="color: #000000ff;">Publications</strong></h2>
+<h1 class="post-title" style="text-align: center;">Publications</h1>
 
 <style>
   .publication-list {
