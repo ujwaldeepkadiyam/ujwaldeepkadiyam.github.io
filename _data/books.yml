@@ -327,3 +327,102 @@
     Velleman teaches mathematical logic, set language, relations, functions, induction, and rigorous proof construction systematically. It provides essential preparation for abstract algebra, discrete mathematics, algorithms, and theoretical computer science.
   external_url: "https://openlibrary.org/isbn/9781108439534"
   status: "Recommended"
+
+- title: "Signals and Systems"
+  author: "Alan V. Oppenheim, Alan S. Willsky, and S. Hamid Nawab"
+  category: "Communication Engineering"
+  subcategory: "Signals and Systems"
+  edition: "2nd edition, 1997"
+  isbn: "9780138147570"
+  summary: >-
+    This foundational text develops continuous-time and discrete-time signals, linear time-invariant systems, Fourier analysis, Laplace transforms, and z-transforms in a unified framework. Its mathematical treatment supports advanced work in communications, control, signal processing, and system theory.
+  external_url: "https://openlibrary.org/isbn/9780138147570"
+  status: "Recommended"
+
+- title: "Linear Systems and Signals"
+  author: "B. P. Lathi and Roger A. Green"
+  category: "Communication Engineering"
+  subcategory: "Signals and Systems"
+  edition: "3rd edition, 2018"
+  isbn: "9780190200176"
+  summary: >-
+    Lathi and Green cover linear systems, convolution, Fourier methods, sampling, modulation, Laplace transforms, state-space analysis, and discrete-time systems. The combination of mathematical development and engineering examples prepares students for communications, control, and signal processing.
+  external_url: "https://global.oup.com/ushe/product/linear-systems-and-signals-9780190200176"
+  status: "Recommended"
+
+- title: "Signals and Systems"
+  author: "Simon Haykin and Barry Van Veen"
+  category: "Communication Engineering"
+  subcategory: "Signals and Systems"
+  edition: "2nd edition, 2002"
+  isbn: "9780471164746"
+  summary: >-
+    Haykin and Van Veen present continuous-time and discrete-time analysis with system representations, Fourier transforms, filtering, sampling, modulation, and feedback. Its balance of theory and applications supports engineering study and preparation for specialized communication and DSP work.
+  external_url: "https://www.wiley.com/en-us/Signals%2Band%2BSystems%2C%2B2nd%2BEdition-p-9780471164746"
+  status: "Recommended"
+
+- title: "Digital Communications"
+  author: "John G. Proakis and Masoud Salehi"
+  category: "Communication Engineering"
+  subcategory: "Digital and Wireless Communications"
+  edition: "5th edition, 2008"
+  isbn: "9780072957167"
+  summary: >-
+    This graduate classic develops signal-space methods, digital modulation, optimum receivers, channel models, error-control coding, equalization, spread spectrum, fading, and multiple-antenna communication. Its analytical depth makes it central to coding, detection, and digital communication research.
+  external_url: "https://openlibrary.org/isbn/9780072957167"
+  status: "Recommended"
+
+- title: "Wireless Communications"
+  author: "Andrea Goldsmith"
+  category: "Communication Engineering"
+  subcategory: "Digital and Wireless Communications"
+  edition: "2nd edition, forthcoming December 2026"
+  isbn: "9781316136010"
+  summary: >-
+    Goldsmith develops wireless-system theory and design through propagation, fading, capacity, modulation, diversity, multiple antennas, multiuser communication, and cellular networks. The revised edition adds modern technologies and is intended for advanced students and wireless researchers.
+  external_url: "https://www.cambridge.org/highereducation/books/wireless-communications/38170F0D7F68C083D15A91C08E3869F0"
+  status: "Forthcoming"
+
+- title: "Fundamentals of Wireless Communication"
+  author: "David Tse and Pramod Viswanath"
+  category: "Communication Engineering"
+  subcategory: "Digital and Wireless Communications"
+  edition: "1st edition, 2005"
+  isbn: "9780521845274"
+  summary: >-
+    Tse and Viswanath unify fading channels, diversity, capacity, multiple access, interference, MIMO, space-time communication, and opportunistic scheduling. The text connects information-theoretic limits with practical wireless-system design.
+  external_url: "https://www.cambridge.org/core/books/fundamentals-of-wireless-communication/04C749B2C2247374B36E573078356350"
+  status: "Recommended"
+
+- title: "Discrete-Time Signal Processing"
+  author: "Alan V. Oppenheim and Ronald W. Schafer"
+  category: "Communication Engineering"
+  subcategory: "Signal Processing"
+  edition: "3rd edition, 2010"
+  isbn: "9780131988422"
+  summary: >-
+    This authoritative text develops discrete-time systems, Fourier and z-transform analysis, sampling, filter structures, filter design, multirate processing, and spectral techniques. It directly supports digital communications and implementation-oriented DSP research.
+  external_url: "https://openlibrary.org/isbn/9780131988422"
+  status: "Recommended"
+
+- title: "Digital Signal Processing: Principles, Algorithms, and Applications"
+  author: "John G. Proakis and Dimitris G. Manolakis"
+  category: "Communication Engineering"
+  subcategory: "Signal Processing"
+  edition: "4th edition, 2007"
+  isbn: "9780131873742"
+  summary: >-
+    Proakis and Manolakis cover discrete-time systems, transform-domain analysis, digital-filter design, spectral estimation, multirate processing, and practical DSP algorithms. It is especially relevant to communication receivers, speech processing, and computational signal analysis.
+  external_url: "https://openlibrary.org/isbn/9780131873742"
+  status: "Recommended"
+
+- title: "Adaptive Filter Theory"
+  author: "Simon Haykin"
+  category: "Communication Engineering"
+  subcategory: "Signal Processing"
+  edition: "5th edition, 2014"
+  isbn: "9780132671453"
+  summary: >-
+    Haykin develops adaptive filtering through Wiener filters, least-mean-square algorithms, recursive least squares, Kalman filtering, and related learning methods. It is an advanced reference for channel equalization, echo cancellation, array processing, and estimation.
+  external_url: "https://openlibrary.org/isbn/9780132671453"
+  status: "Recommended"
