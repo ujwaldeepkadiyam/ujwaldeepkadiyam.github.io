@@ -13,14 +13,17 @@ show_title: false
 
 <strong>Journals</strong>
 <ul>
-  <li><strong>U. D. Kadiyam</strong> and S. Das, “Codes With Availability for Multiple Code Symbols,”
-      <em>IEEE Communications Letters</em>, 25(8):2477–2481, Aug 2021, doi: 10.1109/LCOMM.2021.3079358.
-      <span>(Impact factor: 3.436)</span></li>
-  <li><strong>U. D. Kadiyam</strong> and S. Das, “A Class of Codes With Availability and Multiple Local-Erasures Correction,”
-      <em>IEEE Communications Letters</em>, 24(10):2087–2091, Oct 2020, doi: 10.1109/LCOMM.2020.3004757.
-      <span>(Impact factor: 3.436)</span></li>
-  <li><strong>Deep, K. U.</strong> and V. Bhaskar (2015), “Fast turbo codes with space-time block codes in fast fading channels,”
-      <em>Int. J. Commun. Syst.</em>, 28:944–951, doi: 10.1002/dac.2717. <span>(Impact factor: 2.047)</span></li>
+  <li><strong>[Q1] U. D. Kadiyam</strong> and S. Das, “Codes With Availability for Multiple Code Symbols,”
+      <em>IEEE Communications Letters</em>, 25(8):2477–2481, Aug 2021.
+      <span>(Impact factor: 3.436)</span>
+      <a href="https://doi.org/10.1109/LCOMM.2021.3079358" class="btn btn-sm z-depth-0" role="button">DOI</a></li>
+  <li><strong>[Q1] U. D. Kadiyam</strong> and S. Das, “A Class of Codes With Availability and Multiple Local-Erasures Correction,”
+      <em>IEEE Communications Letters</em>, 24(10):2087–2091, Oct 2020.
+      <span>(Impact factor: 3.436)</span>
+      <a href="https://doi.org/10.1109/LCOMM.2020.3004757" class="btn btn-sm z-depth-0" role="button">DOI</a></li>
+  <li><strong>[Q2] Deep, K. U.</strong> and V. Bhaskar (2015), “Fast turbo codes with space-time block codes in fast fading channels,”
+      <em>Int. J. Commun. Syst.</em>, 28:944–951. <span>(Impact factor: 2.047)</span>
+      <a href="https://doi.org/10.1002/dac.2717" class="btn btn-sm z-depth-0" role="button">DOI</a></li>
 </ul>
 
 <strong>Conferences</strong>
