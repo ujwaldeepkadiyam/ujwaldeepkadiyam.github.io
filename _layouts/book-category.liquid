@@ -34,14 +34,22 @@ layout: page
         <div class="book-list">
           {% for book in books %}
             <article class="book-card">
-              {% if book.cover %}
+              {% if book.cover or book.isbn %}
                 {% if book.external_url %}
                   <a class="book-cover" href="{{ book.external_url }}" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}">
+                    {% if book.cover %}
+                      <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}">
+                    {% else %}
+                      <img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" alt="Cover of {{ book.title }}">
+                    {% endif %}
                   </a>
                 {% else %}
                   <div class="book-cover">
-                    <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}">
+                    {% if book.cover %}
+                      <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}">
+                    {% else %}
+                      <img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" alt="Cover of {{ book.title }}">
+                    {% endif %}
                   </div>
                 {% endif %}
               {% endif %}
@@ -57,6 +65,10 @@ layout: page
 
                 {% if book.author %}
                   <p class="book-author">{{ book.author }}</p>
+                {% endif %}
+
+                {% if book.edition %}
+                  <p class="book-edition">{{ book.edition }}</p>
                 {% endif %}
 
                 {% if book.summary %}

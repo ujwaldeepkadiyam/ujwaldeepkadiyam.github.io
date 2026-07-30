@@ -1,15 +1,329 @@
-# Add books here. Each entry appears on its matching category page without
-# creating a separate book page.
-#
-# - title: Example Book
-#   author: Author Name
-#   category: Mathematics
-#   subcategory: Linear Algebra and Matrix Theory
-#   summary: >-
-#     Write a concise two-to-three-line overview of the book, its main subject,
-#     and why it is useful.
-#   cover: /assets/img/book_covers/example-book.jpg
-#   external_url: https://example.com/book
-#   status: Read
+- title: "Linear Algebra Done Right"
+  author: "Sheldon Axler"
+  category: "Mathematics"
+  subcategory: "Linear Algebra and Matrix Theory"
+  edition: "4th edition, 2024"
+  isbn: "9783031410253"
+  summary: >-
+    This proof-oriented text develops finite-dimensional linear algebra through vector spaces, linear maps, eigenvalues, inner-product spaces, and operator structure. It is valuable for advanced students needing conceptual foundations for information theory and theoretical computer science.
+  external_url: "https://openlibrary.org/isbn/9783031410253"
+  status: "Recommended"
 
-[]
+- title: "Matrix Analysis"
+  author: "Roger A. Horn and Charles R. Johnson"
+  category: "Mathematics"
+  subcategory: "Linear Algebra and Matrix Theory"
+  edition: "2nd edition, 2012"
+  isbn: "9780521548236"
+  summary: >-
+    A graduate-level reference on eigenvalue inequalities, canonical forms, matrix norms, positive definite matrices, and singular-value methods. Its depth is especially useful in signal processing, coding theory, optimization, and communication-system research.
+  external_url: "https://www.cambridge.org/highereducation/books/matrix-analysis/FDA3627DC2B9F5C3DF2FD8C3CC136B48"
+  status: "Recommended"
+
+- title: "Matrix Analysis and Applied Linear Algebra"
+  author: "Carl D. Meyer"
+  category: "Mathematics"
+  subcategory: "Linear Algebra and Matrix Theory"
+  edition: "2nd edition, 2023"
+  isbn: "9781611977431"
+  summary: >-
+    Meyer combines rigorous matrix analysis with computational techniques and applications from scientific computing, probability, networks, and engineering. It bridges abstract linear algebra and practical matrix-based modeling.
+  external_url: "https://epubs.siam.org/doi/book/10.1137/1.9781611977448"
+  status: "Recommended"
+
+- title: "Probability, Random Variables, and Stochastic Processes"
+  author: "Athanasios Papoulis and S. Unnikrishna Pillai"
+  category: "Mathematics"
+  subcategory: "Probability and Random Processes"
+  edition: "4th edition, 2002"
+  isbn: "9780073660110"
+  summary: >-
+    This engineering-oriented classic develops probability, random variables, stochastic processes, spectral analysis, and estimation. It remains highly relevant to communication engineering, signal processing, detection theory, and random-signal research.
+  external_url: "https://openlibrary.org/isbn/9780073660110"
+  status: "Recommended"
+
+- title: "Probability and Random Processes"
+  author: "Geoffrey Grimmett and David Stirzaker"
+  category: "Mathematics"
+  subcategory: "Probability and Random Processes"
+  edition: "3rd edition, 2001"
+  isbn: "9780198572220"
+  summary: >-
+    A mathematically mature treatment of probability, random walks, branching processes, Markov chains, martingales, queues, and continuous-time processes. It provides strong preparation for information theory, stochastic modeling, and theoretical computer science.
+  external_url: "https://openlibrary.org/isbn/9780198572220"
+  status: "Recommended"
+
+- title: "Introduction to Probability Models"
+  author: "Sheldon M. Ross"
+  category: "Mathematics"
+  subcategory: "Probability and Random Processes"
+  edition: "13th edition, 2023"
+  isbn: "9780443187612"
+  summary: >-
+    Ross develops probabilistic modeling through Markov chains, Poisson processes, renewal theory, queues, reliability, Brownian motion, martingales, and simulation. Its applications make it useful across engineering, computer science, and operations research.
+  external_url: "https://shop.elsevier.com/books/introduction-to-probability-models/ross/978-0-443-18761-2"
+  status: "Recommended"
+
+- title: "Discrete Mathematics and Its Applications"
+  author: "Kenneth H. Rosen"
+  category: "Mathematics"
+  subcategory: "Discrete Mathematics"
+  edition: "8th edition, 2019"
+  isbn: "9781259676512"
+  summary: >-
+    This widely adopted textbook covers logic, proofs, sets, relations, counting, recurrences, number theory, graphs, trees, Boolean algebra, and algorithms. It provides a broad foundation for computer science, coding theory, cryptography, and combinatorics.
+  external_url: "https://openlibrary.org/isbn/9781259676512"
+  status: "Recommended"
+
+- title: "Concrete Mathematics: A Foundation for Computer Science"
+  author: "Ronald L. Graham, Donald E. Knuth, and Oren Patashnik"
+  category: "Mathematics"
+  subcategory: "Discrete Mathematics"
+  edition: "2nd edition, 1994"
+  isbn: "9780201558029"
+  summary: >-
+    This seminal text develops continuous and discrete tools for rigorous algorithm analysis, including sums, recurrences, number theory, generating functions, and asymptotics. Its problem-solving style is invaluable in algorithms and combinatorics.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/concrete-mathematics-a-foundation-for-computer-science/P200000000288/9780201558029"
+  status: "Recommended"
+
+- title: "Discrete Mathematics: Elementary and Beyond"
+  author: "László Lovász, József Pelikán, and Katalin Vesztergombi"
+  category: "Mathematics"
+  subcategory: "Discrete Mathematics"
+  edition: "1st edition, 2003"
+  isbn: "9780387955858"
+  summary: >-
+    This engaging text develops combinatorics, number theory, graph theory, probability, and discrete structures through carefully chosen problems and proofs. It suits mathematically strong students preparing for theoretical computer science or combinatorial optimization.
+  external_url: "https://openlibrary.org/isbn/9780387955858"
+  status: "Recommended"
+
+- title: "Abstract Algebra"
+  author: "David S. Dummit and Richard M. Foote"
+  category: "Mathematics"
+  subcategory: "Abstract Algebra and Finite Fields"
+  edition: "3rd edition, 2004"
+  isbn: "9780471433347"
+  summary: >-
+    A comprehensive graduate treatment of groups, rings, modules, fields, Galois theory, and related algebraic structures. Its breadth makes it a standard reference for coding theory, cryptography, finite fields, and theoretical mathematics.
+  external_url: "https://openlibrary.org/isbn/9780471433347"
+  status: "Recommended"
+
+- title: "Finite Fields"
+  author: "Rudolf Lidl and Harald Niederreiter"
+  category: "Mathematics"
+  subcategory: "Abstract Algebra and Finite Fields"
+  edition: "2nd edition, 1997"
+  isbn: "9780521392310"
+  summary: >-
+    This authoritative monograph develops the algebraic structure, polynomials, equations, exponential sums, sequences, and applications of finite fields. It is foundational for error-correcting codes, cryptography, combinatorial design, and pseudorandom sequences.
+  external_url: "https://www.cambridge.org/gb/universitypress/subjects/mathematics/algebra/finite-fields-2nd-edition"
+  status: "Recommended"
+
+- title: "Fundamentals of Error-Correcting Codes"
+  author: "W. Cary Huffman and Vera Pless"
+  category: "Mathematics"
+  subcategory: "Abstract Algebra and Finite Fields"
+  edition: "1st edition, 2003"
+  isbn: "9780521782807"
+  summary: >-
+    Huffman and Pless present coding theory from algebraic and engineering perspectives, covering linear, cyclic, BCH, Reed–Solomon, and self-dual codes with decoding methods. It connects abstract algebra with reliable communication and storage.
+  external_url: "https://www.cambridge.org/core/books/fundamentals-of-errorcorrecting-codes/BF3AFDFB539C3C023BBD9DCBA4CDA761"
+  status: "Recommended"
+
+- title: "Elements of Information Theory"
+  author: "Thomas M. Cover and Joy A. Thomas"
+  category: "Mathematics"
+  subcategory: "Information Theory"
+  edition: "2nd edition, 2006"
+  isbn: "9780471241959"
+  summary: >-
+    This standard text develops entropy, data compression, channel capacity, rate-distortion theory, hypothesis testing, and network information theory. It is essential reading in communication engineering, coding theory, machine learning, and theoretical computer science.
+  external_url: "https://www.wiley.com/en-dk/Elements%2Bof%2BInformation%2BTheory%2C%2B2nd%2BEdition-p-9780471241959"
+  status: "Recommended"
+
+- title: "Information Theory: Coding Theorems for Discrete Memoryless Systems"
+  author: "Imre Csiszár and János Körner"
+  category: "Mathematics"
+  subcategory: "Information Theory"
+  edition: "2nd edition, 2011"
+  isbn: "9780521196819"
+  summary: >-
+    This rigorous classic develops coding theorems using the method of types and treats source coding, channel coding, multi-terminal systems, varying channels, and information-theoretic security. It provides a theorem-driven foundation for modern information theory.
+  external_url: "https://www.cambridge.org/ga/universitypress/subjects/engineering/communications-and-signal-processing/information-theory-coding-theorems-discrete-memoryless-systems-2nd-edition?format=HB&isbn=9780521196819"
+  status: "Recommended"
+
+- title: "Information Theory and Network Coding"
+  author: "Raymond W. Yeung"
+  category: "Mathematics"
+  subcategory: "Information Theory"
+  edition: "1st edition, 2008"
+  isbn: "9780387792330"
+  summary: >-
+    Yeung develops entropy and classical information theory before treating network coding and information inequalities systematically. The book is especially useful for communication networks, distributed storage, coding theory, and multi-user information systems.
+  external_url: "https://link.springer.com/book/10.1007/978-0-387-79234-7"
+  status: "Recommended"
+
+- title: "Convex Optimization"
+  author: "Stephen Boyd and Lieven Vandenberghe"
+  category: "Mathematics"
+  subcategory: "Optimization"
+  edition: "1st edition, 2004"
+  isbn: "9780521833783"
+  summary: >-
+    This landmark text presents convex sets, convex functions, duality, optimality conditions, approximation, and numerical algorithms with extensive engineering applications. It is a standard reference for signal processing, communications, control, and machine learning.
+  external_url: "https://www.cambridge.org/highereducation/books/convex-optimization/17D2FAA54F641A2F62C7CCD01DFA97C4"
+  status: "Recommended"
+
+- title: "Numerical Optimization"
+  author: "Jorge Nocedal and Stephen J. Wright"
+  category: "Mathematics"
+  subcategory: "Optimization"
+  edition: "2nd edition, 2006"
+  isbn: "9780387303031"
+  summary: >-
+    A rigorous treatment of line-search and trust-region methods, nonlinear least squares, constrained optimization, quadratic programming, and large-scale algorithms. It is essential for implementing optimization methods in scientific computing, communications, and machine learning.
+  external_url: "https://openlibrary.org/isbn/9780387303031"
+  status: "Recommended"
+
+- title: "Nonlinear Programming"
+  author: "Dimitri P. Bertsekas"
+  category: "Mathematics"
+  subcategory: "Optimization"
+  edition: "3rd edition, 2016"
+  isbn: "9781886529052"
+  summary: >-
+    Bertsekas develops constrained and unconstrained nonlinear optimization, including convexity, duality, multiplier methods, and optimality conditions. The book supports advanced work in control, network resource allocation, communications, and data analysis.
+  external_url: "https://openlibrary.org/isbn/9781886529052"
+  status: "Recommended"
+
+- title: "Graph Theory"
+  author: "Reinhard Diestel"
+  category: "Mathematics"
+  subcategory: "Graph Theory and Networks"
+  edition: "5th edition, 2017"
+  isbn: "9783662536216"
+  summary: >-
+    Diestel gives a rigorous modern introduction to connectivity, matching, coloring, planarity, flows, extremal methods, infinite graphs, and structural results. It is a core reference in combinatorics, algorithms, network coding, and theoretical computer science.
+  external_url: "https://openlibrary.org/isbn/9783662536216"
+  status: "Recommended"
+
+- title: "Introduction to Graph Theory"
+  author: "Douglas B. West"
+  category: "Mathematics"
+  subcategory: "Graph Theory and Networks"
+  edition: "2nd edition, 2001"
+  isbn: "9780130144003"
+  summary: >-
+    West develops graph theory through proofs, examples, and carefully graded exercises. Its coverage of trees, connectivity, matchings, coloring, planarity, extremal theory, and network flows supports advanced mathematics and computer science study.
+  external_url: "https://openlibrary.org/isbn/9780130144003"
+  status: "Recommended"
+
+- title: "Networks"
+  author: "Mark Newman"
+  category: "Mathematics"
+  subcategory: "Graph Theory and Networks"
+  edition: "2nd edition, 2018"
+  isbn: "9780198805090"
+  summary: >-
+    Newman presents the mathematical and computational study of real-world networks, including random graphs, centrality, community structure, spreading, resilience, and dynamics. It is relevant to data science, communications, complex systems, and network analysis.
+  external_url: "https://openlibrary.org/isbn/9780198805090"
+  status: "Recommended"
+
+- title: "Numerical Analysis"
+  author: "Richard L. Burden, J. Douglas Faires, and Annette M. Burden"
+  category: "Mathematics"
+  subcategory: "Numerical Methods"
+  edition: "10th edition, 2016"
+  isbn: "9781305253667"
+  summary: >-
+    This established textbook covers numerical equations, interpolation, approximation, differentiation, integration, initial-value problems, boundary-value problems, and linear systems. It provides a broad foundation for scientific computing and engineering applications.
+  external_url: "https://openlibrary.org/isbn/9781305253667"
+  status: "Recommended"
+
+- title: "Numerical Linear Algebra"
+  author: "Lloyd N. Trefethen and David Bau III"
+  category: "Mathematics"
+  subcategory: "Numerical Methods"
+  edition: "1st edition, 1997"
+  isbn: "9780898713619"
+  summary: >-
+    A concise treatment of matrix factorizations, least squares, conditioning, stability, eigenvalue algorithms, and iterative methods. It is especially relevant to signal processing, optimization, data science, and large linear systems.
+  external_url: "https://openlibrary.org/isbn/9780898713619"
+  status: "Recommended"
+
+- title: "Accuracy and Stability of Numerical Algorithms"
+  author: "Nicholas J. Higham"
+  category: "Mathematics"
+  subcategory: "Numerical Methods"
+  edition: "2nd edition, 2002"
+  isbn: "9780898715217"
+  summary: >-
+    Higham rigorously analyzes rounding errors, floating-point arithmetic, conditioning, backward error, stability, and matrix-algorithm reliability. It helps researchers judge when numerical computations in engineering, optimization, and data analysis can be trusted.
+  external_url: "https://openlibrary.org/isbn/9780898715217"
+  status: "Recommended"
+
+- title: "Statistical Inference"
+  author: "George Casella and Roger L. Berger"
+  category: "Mathematics"
+  subcategory: "Statistical Mathematics"
+  edition: "2nd edition, 2002"
+  isbn: "9780534243128"
+  summary: >-
+    Casella and Berger develop probability models, estimation, sufficiency, decision theory, hypothesis testing, intervals, and asymptotic methods rigorously. It is a standard graduate text for statistics, machine-learning theory, and data-science research.
+  external_url: "https://openlibrary.org/isbn/9780534243128"
+  status: "Recommended"
+
+- title: "Testing Statistical Hypotheses"
+  author: "Erich L. Lehmann, Joseph P. Romano, and Michael Wolf"
+  category: "Mathematics"
+  subcategory: "Statistical Mathematics"
+  edition: "4th edition, 2022"
+  isbn: "9783030705787"
+  summary: >-
+    This advanced reference develops statistical testing through optimal tests, exponential families, unbiasedness, invariance, multiple testing, asymptotic theory, and resampling. It provides a rigorous foundation for modern inferential methodology.
+  external_url: "https://openlibrary.org/isbn/9783030705787"
+  status: "Recommended"
+
+- title: "All of Statistics: A Concise Course in Statistical Inference"
+  author: "Larry Wasserman"
+  category: "Mathematics"
+  subcategory: "Statistical Mathematics"
+  edition: "1st edition, 2004"
+  isbn: "9780387402727"
+  summary: >-
+    Wasserman surveys probability, estimation, testing, regression, classification, Bayesian inference, graphical models, nonparametric methods, and statistical learning. It gives computer-science and data-science students broad statistical preparation.
+  external_url: "https://openlibrary.org/isbn/9780387402727"
+  status: "Recommended"
+
+- title: "Principles of Mathematical Analysis"
+  author: "Walter Rudin"
+  category: "Mathematics"
+  subcategory: "Mathematical Foundations"
+  edition: "3rd edition, 1976"
+  isbn: "9780070542358"
+  summary: >-
+    Rudin develops rigorous analysis through metric spaces, sequences, continuity, differentiation, integration, function sequences, and multivariable analysis. Its concise proofs and demanding exercises prepare readers for probability, optimization, and theoretical research.
+  external_url: "https://openlibrary.org/isbn/9780070542358"
+  status: "Recommended"
+
+- title: "Understanding Analysis"
+  author: "Stephen Abbott"
+  category: "Mathematics"
+  subcategory: "Mathematical Foundations"
+  edition: "2nd edition, 2015"
+  isbn: "9781493927111"
+  summary: >-
+    Abbott introduces rigorous real analysis while emphasizing motivation, conceptual understanding, and the transition to proof-based mathematics. It suits advanced students preparing for analysis, probability, optimization, or theoretical computer science.
+  external_url: "https://openlibrary.org/isbn/9781493927111"
+  status: "Recommended"
+
+- title: "How to Prove It: A Structured Approach"
+  author: "Daniel J. Velleman"
+  category: "Mathematics"
+  subcategory: "Mathematical Foundations"
+  edition: "3rd edition, 2019"
+  isbn: "9781108439534"
+  summary: >-
+    Velleman teaches mathematical logic, set language, relations, functions, induction, and rigorous proof construction systematically. It provides essential preparation for abstract algebra, discrete mathematics, algorithms, and theoretical computer science.
+  external_url: "https://openlibrary.org/isbn/9781108439534"
+  status: "Recommended"

@@ -112,9 +112,14 @@
     margin-bottom: 0.5rem;
   }
 
-  .book-author {
+  .book-author,
+  .book-edition {
     color: var(--global-text-color-light);
     font-size: 0.9rem;
+  }
+
+  .book-edition {
+    margin-top: -0.35rem;
   }
 }
 
