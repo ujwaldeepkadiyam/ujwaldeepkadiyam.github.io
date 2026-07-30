@@ -426,3 +426,300 @@
     Haykin develops adaptive filtering through Wiener filters, least-mean-square algorithms, recursive least squares, Kalman filtering, and related learning methods. It is an advanced reference for channel equalization, echo cancellation, array processing, and estimation.
   external_url: "https://openlibrary.org/isbn/9780132671453"
   status: "Recommended"
+
+- title: "The C Programming Language"
+  author: "Brian W. Kernighan and Dennis M. Ritchie"
+  category: "Foundations of Computing"
+  subcategory: "Programming Fundamentals"
+  edition: "2nd edition, 1988"
+  isbn: "9780131103627"
+  summary: >-
+    Commonly known as K&R, this classic introduces C through concise explanations and carefully designed examples. It remains an excellent foundation for systems programming, compilers, operating systems, and embedded software.
+  external_url: "https://openlibrary.org/isbn/9780131103627"
+  status: "Recommended"
+
+- title: "Programming: Principles and Practice Using C++"
+  author: "Bjarne Stroustrup"
+  category: "Foundations of Computing"
+  subcategory: "Programming Fundamentals"
+  edition: "2nd edition, 2014"
+  isbn: "9780321992789"
+  summary: >-
+    Written by the creator of C++, this book teaches programming through problem solving, abstraction, object-oriented methods, generic programming, and software design. It prepares beginners for advanced software engineering and systems development.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/programming-principles-and-practice-using-c/P200000003343/9780321992789"
+  status: "Recommended"
+
+- title: "Introduction to Algorithms"
+  author: "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein"
+  category: "Foundations of Computing"
+  subcategory: "Programming Fundamentals"
+  edition: "4th edition, 2022"
+  isbn: "9780262046305"
+  summary: >-
+    This comprehensive text builds disciplined algorithmic thinking through recursion, data representation, asymptotic analysis, and implementation techniques. In this section it serves as a bridge from introductory programming to formal algorithm design.
+  external_url: "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/"
+  status: "Recommended"
+
+- title: "Introduction to Algorithms"
+  author: "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein"
+  category: "Foundations of Computing"
+  subcategory: "Data Structures and Algorithms"
+  edition: "4th edition, 2022"
+  isbn: "9780262046305"
+  summary: >-
+    A standard reference covering fundamental data structures, algorithm-design paradigms, graph algorithms, dynamic programming, greedy methods, NP-completeness, and advanced techniques. It supports undergraduate, graduate, and research-level study.
+  external_url: "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/"
+  status: "Recommended"
+
+- title: "Algorithm Design"
+  author: "Jon Kleinberg and Éva Tardos"
+  category: "Foundations of Computing"
+  subcategory: "Data Structures and Algorithms"
+  edition: "1st edition, 2005"
+  isbn: "9780321295354"
+  summary: >-
+    Kleinberg and Tardos teach divide-and-conquer, greedy methods, dynamic programming, network flows, NP-completeness, and approximation through examples and proofs. The text emphasizes how to recognize and construct effective algorithmic strategies.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/algorithm-design/P200000003421/9780321295354"
+  status: "Recommended"
+
+- title: "Data Structures and Algorithm Analysis in C++"
+  author: "Mark Allen Weiss"
+  category: "Foundations of Computing"
+  subcategory: "Data Structures and Algorithms"
+  edition: "4th edition, 2014"
+  isbn: "9780132847377"
+  summary: >-
+    Weiss combines classical data structures, rigorous algorithm analysis, and practical C++ implementations. It is well suited to advanced undergraduate study and to developing efficient problem-solving skills.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/data-structures-and-algorithm-analysis-in-c/P200000003432/9780132847377"
+  status: "Recommended"
+
+- title: "Introduction to the Theory of Computation"
+  author: "Michael Sipser"
+  category: "Foundations of Computing"
+  subcategory: "Theory of Computation"
+  edition: "3rd edition, 2012"
+  isbn: "9781133187790"
+  summary: >-
+    Sipser introduces automata, formal languages, computability, undecidability, and computational complexity with clarity and mathematical rigor. It is a standard introductory theoretical-computer-science text.
+  external_url: "https://openlibrary.org/isbn/9781133187790"
+  status: "Recommended"
+
+- title: "Introduction to Automata Theory, Languages, and Computation"
+  author: "John E. Hopcroft, Rajeev Motwani, and Jeffrey D. Ullman"
+  category: "Foundations of Computing"
+  subcategory: "Theory of Computation"
+  edition: "3rd edition, 2006"
+  isbn: "9780321455369"
+  summary: >-
+    This classic develops finite automata, regular and context-free languages, Turing machines, computability, and complexity through rigorous proofs and examples. It remains widely used in computer-science curricula.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/introduction-to-automata-theory-languages-and-computation/P200000003468/9780321455369"
+  status: "Recommended"
+
+- title: "Elements of the Theory of Computation"
+  author: "Harry R. Lewis and Christos H. Papadimitriou"
+  category: "Foundations of Computing"
+  subcategory: "Theory of Computation"
+  edition: "2nd edition, 1997"
+  isbn: "9780132624787"
+  summary: >-
+    Lewis and Papadimitriou present automata, computability, formal languages, recursive functions, and complexity with mathematical precision. The book bridges undergraduate foundations and graduate theoretical computer science.
+  external_url: "https://openlibrary.org/isbn/9780132624787"
+  status: "Recommended"
+
+- title: "Computational Complexity: A Modern Approach"
+  author: "Sanjeev Arora and Boaz Barak"
+  category: "Foundations of Computing"
+  subcategory: "Computational Complexity"
+  edition: "1st edition, 2009"
+  isbn: "9780521424264"
+  summary: >-
+    This graduate text develops complexity classes, reductions, randomness, approximation, interactive proofs, pseudorandomness, and quantum computation. It is a principal reference for modern computational-complexity research.
+  external_url: "https://www.cambridge.org/core/books/computational-complexity/8E6E49D0D0F3A2A4A67B4E86D3D59C4F"
+  status: "Recommended"
+
+- title: "Computational Complexity"
+  author: "Christos H. Papadimitriou"
+  category: "Foundations of Computing"
+  subcategory: "Computational Complexity"
+  edition: "1st edition, 1994"
+  isbn: "9780201530827"
+  summary: >-
+    Papadimitriou develops complexity through reductions, completeness, parallel computation, probabilistic computation, and optimization problems. It remains an influential theoretical-computer-science reference.
+  external_url: "https://openlibrary.org/isbn/9780201530827"
+  status: "Recommended"
+
+- title: "Complexity and Real Computation"
+  author: "Lenore Blum, Felipe Cucker, Michael Shub, and Steve Smale"
+  category: "Foundations of Computing"
+  subcategory: "Computational Complexity"
+  edition: "1st edition, 1998"
+  isbn: "9780387982816"
+  summary: >-
+    This advanced monograph extends computational complexity from discrete models to continuous mathematics and numerical computation. It explores the research interface between mathematics, numerical analysis, and theoretical computer science.
+  external_url: "https://openlibrary.org/isbn/9780387982816"
+  status: "Recommended"
+
+- title: "Computer Organization and Design RISC-V Edition"
+  author: "David A. Patterson and John L. Hennessy"
+  category: "Foundations of Computing"
+  subcategory: "Computer Systems"
+  edition: "2nd edition, 2021"
+  isbn: "9780128203316"
+  summary: >-
+    Patterson and Hennessy explain instruction sets, processor architecture, memory hierarchy, pipelining, parallelism, storage, and input/output using RISC-V. The text links hardware design with software execution.
+  external_url: "https://shop.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-820331-6"
+  status: "Recommended"
+
+- title: "Computer Architecture: A Quantitative Approach"
+  author: "John L. Hennessy and David A. Patterson"
+  category: "Foundations of Computing"
+  subcategory: "Computer Systems"
+  edition: "6th edition, 2017"
+  isbn: "9780128119051"
+  summary: >-
+    This authoritative graduate text analyzes processors, parallelism, memory, storage, interconnection networks, and performance using quantitative methods. It is a standard reference for advanced computer-architecture research.
+  external_url: "https://shop.elsevier.com/books/computer-architecture/hennessy/978-0-12-811905-1"
+  status: "Recommended"
+
+- title: "Structured Computer Organization"
+  author: "Andrew S. Tanenbaum and Todd Austin"
+  category: "Foundations of Computing"
+  subcategory: "Computer Systems"
+  edition: "6th edition, 2012"
+  isbn: "9780132916523"
+  summary: >-
+    This book explains computers through abstraction levels from digital logic and microarchitecture to operating systems and programming languages. Its layered approach shows how complete computing systems are constructed.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/structured-computer-organization/P200000003824/9780132916523"
+  status: "Recommended"
+
+- title: "Operating System Concepts"
+  author: "Abraham Silberschatz, Peter B. Galvin, and Greg Gagne"
+  category: "Foundations of Computing"
+  subcategory: "Operating Systems"
+  edition: "10th edition, 2018"
+  isbn: "9781119456339"
+  summary: >-
+    The Dinosaur Book develops processes, threads, scheduling, memory, file systems, security, virtualization, and distributed systems. It remains one of the most widely adopted operating-systems texts.
+  external_url: "https://www.wiley.com/en-us/Operating+System+Concepts%2C+10th+Edition-p-9781119456339"
+  status: "Recommended"
+
+- title: "Modern Operating Systems"
+  author: "Andrew S. Tanenbaum and Herbert Bos"
+  category: "Foundations of Computing"
+  subcategory: "Operating Systems"
+  edition: "5th edition, 2022"
+  isbn: "9780137618880"
+  summary: >-
+    Tanenbaum and Bos combine theory with implementation across processes, concurrency, memory, storage, security, virtualization, and mobile systems. It is valuable for both coursework and systems research.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000009540/9780137618880"
+  status: "Recommended"
+
+- title: "Operating Systems: Three Easy Pieces"
+  author: "Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau"
+  category: "Foundations of Computing"
+  subcategory: "Operating Systems"
+  edition: "1st edition, 2018"
+  isbn:
+  summary: >-
+    This free university text explains virtualization, concurrency, persistence, scheduling, synchronization, and storage through practical examples. It works especially well alongside a more formal operating-systems reference.
+  external_url: "https://pages.cs.wisc.edu/~remzi/OSTEP/"
+  status: "Recommended"
+
+- title: "Computer Networking: A Top-Down Approach"
+  author: "James F. Kurose and Keith W. Ross"
+  category: "Foundations of Computing"
+  subcategory: "Computer Networks"
+  edition: "8th edition, 2021"
+  isbn: "9780136681557"
+  summary: >-
+    Kurose and Ross explain networking from applications downward through transport, routing, congestion, wireless systems, multimedia, security, and Internet architecture. The balance of theory and protocols makes it a leading undergraduate text.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/computer-networking-a-top-down-approach/P200000003532/9780136681557"
+  status: "Recommended"
+
+- title: "Computer Networks"
+  author: "Andrew S. Tanenbaum and David J. Wetherall"
+  category: "Foundations of Computing"
+  subcategory: "Computer Networks"
+  edition: "5th edition, 2011"
+  isbn: "9780132126953"
+  summary: >-
+    This classic develops network architectures, routing, transport protocols, wireless communication, security, and Internet technologies from a systems perspective. It supports both education and professional reference.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/computer-networks/P200000003483/9780132126953"
+  status: "Recommended"
+
+- title: "Data and Computer Communications"
+  author: "William Stallings"
+  category: "Foundations of Computing"
+  subcategory: "Computer Networks"
+  edition: "11th edition, 2022"
+  isbn: "9780136669968"
+  summary: >-
+    Stallings covers data communications, network architectures, switching, routing, wireless networks, security, congestion control, and Internet protocols. It bridges communication engineering and computer networking.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/data-and-computer-communications/P200000003544/9780136669968"
+  status: "Recommended"
+
+- title: "Database System Concepts"
+  author: "Abraham Silberschatz, Henry F. Korth, and S. Sudarshan"
+  category: "Foundations of Computing"
+  subcategory: "Databases"
+  edition: "7th edition, 2019"
+  isbn: "9780078022159"
+  summary: >-
+    This standard text develops relational databases, SQL, indexing, query optimization, transactions, concurrency, recovery, distributed databases, and modern data-management systems. It supports undergraduate and graduate database courses.
+  external_url: "https://openlibrary.org/isbn/9780078022159"
+  status: "Recommended"
+
+- title: "Fundamentals of Database Systems"
+  author: "Ramez Elmasri and Shamkant B. Navathe"
+  category: "Foundations of Computing"
+  subcategory: "Databases"
+  edition: "7th edition, 2016"
+  isbn: "9780133970777"
+  summary: >-
+    Elmasri and Navathe present conceptual modeling, relational databases, SQL, normalization, transactions, distributed and object-oriented databases, and warehousing. The text connects theory with practical database design.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/fundamentals-of-database-systems/P200000003585/9780133970777"
+  status: "Recommended"
+
+- title: "Readings in Database Systems"
+  author: "Peter Bailis, Joseph M. Hellerstein, and Michael Stonebraker"
+  category: "Foundations of Computing"
+  subcategory: "Databases"
+  edition: "5th edition, 2015"
+  isbn:
+  summary: >-
+    The Red Book combines influential database research papers with editorial commentary on transactions, query processing, distributed data, analytics, and modern architectures. This free collection is particularly valuable to graduate students and researchers.
+  external_url: "https://www.redbook.io/"
+  status: "Recommended"
+
+- title: "Software Engineering"
+  author: "Ian Sommerville"
+  category: "Foundations of Computing"
+  subcategory: "Software Engineering"
+  edition: "10th edition, 2015"
+  isbn: "9780133943030"
+  summary: >-
+    Sommerville develops software processes, requirements, architecture, design, verification, project management, security, agile methods, and dependable systems. It is one of the most widely used university software-engineering texts.
+  external_url: "https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000003745/9780133943030"
+  status: "Recommended"
+
+- title: "Software Engineering: A Practitioner's Approach"
+  author: "Roger S. Pressman and Bruce R. Maxim"
+  category: "Foundations of Computing"
+  subcategory: "Software Engineering"
+  edition: "9th edition, 2019"
+  isbn: "9781260548006"
+  summary: >-
+    Pressman and Maxim combine engineering principles with software processes, design, testing, quality assurance, DevOps, maintenance, and project management. It is widely adopted in professional software-engineering education.
+  external_url: "https://www.mheducation.com/highered/product/software-engineering-practitioners-approach-pressman-maxim/M9781260548006.html"
+  status: "Recommended"
+
+- title: "The Mythical Man-Month: Essays on Software Engineering"
+  author: "Frederick P. Brooks Jr."
+  category: "Foundations of Computing"
+  subcategory: "Software Engineering"
+  edition: "Anniversary edition, 1995"
+  isbn: "9780201835953"
+  summary: >-
+    Brooks examines software project management, complexity, scheduling, architecture, communication, and the human side of development. The essays remain influential for large-scale engineering and project leadership.
+  external_url: "https://openlibrary.org/isbn/9780201835953"
+  status: "Recommended"
