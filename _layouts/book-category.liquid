@@ -1,0 +1,78 @@
+---
+layout: page
+---
+
+<nav class="bookshelf-nav" aria-label="Bookshelf categories">
+  <a href="{{ '/books/' | relative_url }}">Bookshelf</a>
+  <a href="{{ '/books/mathematics/' | relative_url }}">Mathematics</a>
+  <a href="{{ '/books/communication-engineering/' | relative_url }}">Communication Engineering</a>
+  <a href="{{ '/books/foundations-of-computing/' | relative_url }}">Foundations of Computing</a>
+  <a href="{{ '/books/data-science/' | relative_url }}">Data Science</a>
+</nav>
+
+<h1 class="post-title text-center">{{ page.title }}</h1>
+
+{% if page.intro %}
+  <p class="bookshelf-intro">{{ page.intro }}</p>
+{% endif %}
+
+<nav class="bookshelf-subnav" aria-label="{{ page.title }} sections">
+  {% for subcategory in page.subcategories %}
+    <a href="#{{ subcategory.slug }}">{{ subcategory.name }}</a>
+  {% endfor %}
+</nav>
+
+{% assign category_books = site.data.books | where: 'category', page.book_category %}
+
+<div class="bookshelf-sections">
+  {% for subcategory in page.subcategories %}
+    <section class="bookshelf-section" id="{{ subcategory.slug }}">
+      <h2>{{ subcategory.name }}</h2>
+
+      {% assign books = category_books | where: 'subcategory', subcategory.name %}
+      {% if books.size > 0 %}
+        <div class="book-list">
+          {% for book in books %}
+            <article class="book-card">
+              {% if book.cover %}
+                {% if book.external_url %}
+                  <a class="book-cover" href="{{ book.external_url }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}">
+                  </a>
+                {% else %}
+                  <div class="book-cover">
+                    <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}">
+                  </div>
+                {% endif %}
+              {% endif %}
+
+              <div class="book-details">
+                <h3>
+                  {% if book.external_url %}
+                    <a href="{{ book.external_url }}" target="_blank" rel="noopener noreferrer">{{ book.title }}</a>
+                  {% else %}
+                    {{ book.title }}
+                  {% endif %}
+                </h3>
+
+                {% if book.author %}
+                  <p class="book-author">{{ book.author }}</p>
+                {% endif %}
+
+                {% if book.summary %}
+                  <p>{{ book.summary }}</p>
+                {% endif %}
+
+                {% if book.status %}
+                  <span class="book-status">{{ book.status }}</span>
+                {% endif %}
+              </div>
+            </article>
+          {% endfor %}
+        </div>
+      {% else %}
+        <p class="bookshelf-empty">Books will be added here.</p>
+      {% endif %}
+    </section>
+  {% endfor %}
+</div>

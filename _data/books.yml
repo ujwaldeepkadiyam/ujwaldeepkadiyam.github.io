@@ -1,0 +1,15 @@
+# Add books here. Each entry appears on its matching category page without
+# creating a separate book page.
+#
+# - title: Example Book
+#   author: Author Name
+#   category: Mathematics
+#   subcategory: Linear Algebra and Matrix Theory
+#   summary: >-
+#     Write a concise two-to-three-line overview of the book, its main subject,
+#     and why it is useful.
+#   cover: /assets/img/book_covers/example-book.jpg
+#   external_url: https://example.com/book
+#   status: Read
+
+[]
