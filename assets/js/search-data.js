@@ -525,6 +525,26 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Data%20Science/Python-for-Data-Wrangling/quick_reference/lec_6/";
+            },},{id: "teaching-developer-tools-amp-workflows",
+          title: 'Developer Tools &amp;amp; Workflows',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Developer%20Tools%20&%20Workflows/";
+            },},{id: "teaching-git-foundations",
+          title: 'Git-Foundations',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Developer%20Tools%20&%20Workflows/Git-Foundations/";
+            },},{id: "teaching-introduction-to-git-commits",
+          title: 'Introduction to Git Commits',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Developer%20Tools%20&%20Workflows/Git-Foundations/modules/module-1-introduction-to-git-commits/";
+            },},{id: "teaching-git-branches",
+          title: 'Git Branches',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Developer%20Tools%20&%20Workflows/Git-Foundations/modules/module-2-git-branches/";
             },},{id: "teaching-unit-1-introduction-and-regression",
           title: 'Unit-1 Introduction and Regression',
           description: "",
