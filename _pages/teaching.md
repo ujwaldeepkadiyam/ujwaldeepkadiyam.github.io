@@ -109,6 +109,9 @@ nav_order: 3
   Learn the principles of modern communication systems including analog and digital communication, signal processing, and networking. 
   This specialization prepares you for careers in telecom, networking, and IoT technologies.
 
+- <h5><a href="/teaching/Developer Tools & Workflows/" style="color: #cc33cc; text-decoration: none;font-weight: bold;">Developer Tools & Workflows</a></h5>
+  <p style="text-align: justify;">Practical, hands-on courses on the tools and workflows developers use day to day — version control, environments, and the habits that keep projects maintainable.</p>
+
 
 <!-- - <h5><a href="/teaching/Python/" style="color: #cc33cc; text-decoration: none;">Python Programming</a></h5>
   This specialization introduces Python programming from basics to advanced applications, including data analysis, web development, and automation. Students gain practical experience through coding exercises and real-world projects. -->
