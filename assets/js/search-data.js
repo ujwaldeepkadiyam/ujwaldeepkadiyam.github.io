@@ -545,6 +545,11 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Developer%20Tools%20&%20Workflows/Git-Foundations/modules/module-2-git-branches/";
+            },},{id: "teaching-git-rebase",
+          title: 'Git Rebase',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Developer%20Tools%20&%20Workflows/Git-Foundations/modules/module-3-git-rebase/";
             },},{id: "teaching-unit-1-introduction-and-regression",
           title: 'Unit-1 Introduction and Regression',
           description: "",
