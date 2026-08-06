@@ -28,6 +28,10 @@ order: 1
       * [Module 2: Git Branches](/teaching/Developer%20Tools%20%26%20Workflows/Git-Foundations/modules/module-2-git-branches/) — creating and switching branches, working on them independently, merging, and how HEAD tracks your current branch.
 
 
+  * **Module 3: Git Rebase**
+      * [Module 3: Git Rebase](/teaching/Developer%20Tools%20%26%20Workflows/Git-Foundations/modules/module-3-git-rebase/) — a second way to combine branches: how rebase rewrites history into a straight line, how it compares to merge, and what happens to HEAD.
+
+
 <p style="text-align: justify;">
   More lessons will be added here as the course grows.
 </p>

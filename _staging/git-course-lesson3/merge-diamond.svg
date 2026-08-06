@@ -1,0 +1,44 @@
+<svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrowM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <line x1="60" y1="130" x2="110" y2="130" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arrowM)"/>
+  <line x1="140" y1="122" x2="220" y2="70" stroke="#2f5fa8" stroke-width="2" marker-end="url(#arrowM)"/>
+  <line x1="250" y1="70" x2="330" y2="70" stroke="#2f5fa8" stroke-width="2" marker-end="url(#arrowM)"/>
+  <line x1="140" y1="138" x2="220" y2="190" stroke="#c0392b" stroke-width="2" marker-end="url(#arrowM)"/>
+  <line x1="250" y1="190" x2="330" y2="190" stroke="#c0392b" stroke-width="2" marker-end="url(#arrowM)"/>
+  <line x1="355" y1="75" x2="420" y2="120" stroke="#5b3d8a" stroke-width="2.5" marker-end="url(#arrowM)"/>
+  <line x1="355" y1="185" x2="420" y2="140" stroke="#5b3d8a" stroke-width="2.5" marker-end="url(#arrowM)"/>
+  <line x1="450" y1="130" x2="520" y2="130" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arrowM)"/>
+
+  <circle cx="40" cy="130" r="22" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="40" y="135" text-anchor="middle" font-size="12">C0</text>
+  <circle cx="130" cy="130" r="22" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="130" y="135" text-anchor="middle" font-size="12">C1</text>
+
+  <circle cx="235" cy="70" r="20" fill="#eaf2ff" stroke="#2f5fa8" stroke-width="2"/>
+  <text x="235" y="75" text-anchor="middle" font-size="11">C2</text>
+  <circle cx="340" cy="70" r="22" fill="#eaf2ff" stroke="#2f5fa8" stroke-width="2.5"/>
+  <text x="340" y="76" text-anchor="middle" font-size="11">C3</text>
+
+  <circle cx="235" cy="190" r="20" fill="#fdeaea" stroke="#c0392b" stroke-width="2"/>
+  <text x="235" y="195" text-anchor="middle" font-size="11">B1</text>
+  <circle cx="340" cy="190" r="22" fill="#fdeaea" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="340" y="196" text-anchor="middle" font-size="11">B2</text>
+
+  <circle cx="435" cy="130" r="26" fill="#f1ecf9" stroke="#5b3d8a" stroke-width="3"/>
+  <text x="435" y="136" text-anchor="middle" font-size="14" fill="#3d2a5c" font-weight="700">M</text>
+
+  <rect x="400" y="60" width="70" height="24" rx="12" fill="#c0392b"/>
+  <text x="435" y="77" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">bugFix</text>
+  <line x1="435" y1="84" x2="435" y2="104" stroke="#c0392b" stroke-width="2" marker-end="url(#arrowM)"/>
+
+  <rect x="290" y="20" width="70" height="24" rx="12" fill="#2f5fa8"/>
+  <text x="325" y="37" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">main</text>
+  <line x1="325" y1="44" x2="335" y2="50" stroke="#2f5fa8" stroke-width="2"/>
+
+  <text x="435" y="230" text-anchor="middle" font-size="12" fill="#555">M has two parents: C3 and B2</text>
+</svg>
