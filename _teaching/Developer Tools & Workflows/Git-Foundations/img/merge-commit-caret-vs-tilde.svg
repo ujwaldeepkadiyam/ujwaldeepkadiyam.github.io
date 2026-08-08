@@ -1,0 +1,52 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="arrowBlue5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowRed5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrowPurple5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+
+  <!-- main-line: A -> B -> M -->
+  <circle cx="90" cy="140" r="24" fill="#dbeafe" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="90" y="145" text-anchor="middle" font-size="13" fill="#1e3a8a" font-weight="600">A</text>
+
+  <circle cx="250" cy="140" r="24" fill="#dbeafe" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="250" y="145" text-anchor="middle" font-size="13" fill="#1e3a8a" font-weight="600">B</text>
+
+  <line x1="226" y1="140" x2="114" y2="140" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrowBlue5)"/>
+
+  <!-- feature branch commit D -->
+  <circle cx="250" cy="260" r="24" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="250" y="265" text-anchor="middle" font-size="13" fill="#7f1d1d" font-weight="600">D</text>
+
+  <!-- merge commit M -->
+  <circle cx="420" cy="200" r="26" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/>
+  <text x="420" y="205" text-anchor="middle" font-size="13" fill="#4c1d95" font-weight="700">M</text>
+
+  <!-- M's first parent (B) -->
+  <line x1="396" y1="185" x2="274" y2="150" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrowBlue5)"/>
+  <!-- M's second parent (D) -->
+  <line x1="396" y1="215" x2="274" y2="255" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#arrowPurple5)"/>
+
+  <!-- M^1 label -->
+  <rect x="300" y="112" width="46" height="24" rx="4" fill="#2563eb"/>
+  <text x="323" y="128" text-anchor="middle" font-size="11.5" fill="white" font-weight="600">M^1</text>
+
+  <!-- M^2 label -->
+  <rect x="300" y="222" width="46" height="24" rx="4" fill="#7c3aed"/>
+  <text x="323" y="238" text-anchor="middle" font-size="11.5" fill="white" font-weight="600">M^2</text>
+
+  <!-- M~2 pointing down to A via first-parent path -->
+  <line x1="420" y1="226" x2="420" y2="280" stroke="#334155" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="420" y1="280" x2="106" y2="152" stroke="#334155" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowBlue5)"/>
+  <rect x="470" y="268" width="52" height="24" rx="4" fill="#334155"/>
+  <text x="496" y="284" text-anchor="middle" font-size="11.5" fill="white" font-weight="600">M~2</text>
+
+  <text x="20" y="30" font-size="14" font-weight="600" fill="#334155">Caret picks a specific parent; tilde follows the first-parent line</text>
+  <text x="20" y="315" font-size="12.5" fill="#475569">M^1 = B (first parent)   ·   M^2 = D (second parent)   ·   M~2 = A (first-parent path, twice back)</text>
+</svg>

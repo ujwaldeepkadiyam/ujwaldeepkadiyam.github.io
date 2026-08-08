@@ -32,6 +32,10 @@ order: 1
       * [Module 3: Git Rebase](/teaching/Developer%20Tools%20%26%20Workflows/Git-Foundations/modules/module-3-git-rebase/) — a second way to combine branches: how rebase rewrites history into a straight line, how it compares to merge, and what happens to HEAD.
 
 
+  * **Module 4: Detached HEAD & Relative References**
+      * [Module 4: Detached HEAD & Relative References](/teaching/Developer%20Tools%20%26%20Workflows/Git-Foundations/modules/module-4-detached-head-and-relative-references/) — what HEAD actually points to, how it detaches from a branch to sit directly on a commit, and how to navigate commit history with the ^ and ~ operators instead of typing out full hashes.
+
+
 <p style="text-align: justify;">
   More lessons will be added here as the course grows.
 </p>
