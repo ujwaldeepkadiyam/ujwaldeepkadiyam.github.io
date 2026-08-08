@@ -550,6 +550,11 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/Developer%20Tools%20&%20Workflows/Git-Foundations/modules/module-3-git-rebase/";
+            },},{id: "teaching-detached-head-amp-relative-references",
+          title: 'Detached HEAD &amp;amp; Relative References',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/Developer%20Tools%20&%20Workflows/Git-Foundations/modules/module-4-detached-head-and-relative-references/";
             },},{id: "teaching-unit-1-introduction-and-regression",
           title: 'Unit-1 Introduction and Regression',
           description: "",
